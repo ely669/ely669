@@ -27,6 +27,11 @@ const graphql = async (query, variables = {}) => {
   });
   const body = await res.json();
   if (body.errors) throw new Error(JSON.stringify(body.errors));
+  if (!body.data || !body.data.user) {
+    throw new Error(
+      `GitHub returned no user data (HTTP ${res.status}). Check that GH_TOKEN is valid and has the 'repo' scope.`
+    );
+  }
   return body.data;
 };
 
