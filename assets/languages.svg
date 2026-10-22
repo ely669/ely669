@@ -1,46 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="272" viewBox="0 0 1000 272" role="img" aria-label="Languages by repository">
-  <rect x="0.5" y="0.5" width="999" height="271" rx="24" fill="#0d0d0d" stroke="#ffffff" stroke-opacity="0.09"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="200" viewBox="0 0 1000 200" role="img" aria-label="Languages by repository">
+  <rect x="0.5" y="0.5" width="999" height="199" rx="24" fill="#0d0d0d" stroke="#ffffff" stroke-opacity="0.09"/>
   <text x="44" y="46" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10.5" letter-spacing="2.4" fill="#7b7b7b">LANGUAGES BY REPOSITORY — PRIVATE INCLUDED</text>
-  <text x="956" y="46" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10.5" fill="#7b7b7b" text-anchor="end">67 OF 72 REPOSITORIES CLASSIFIED</text>
+  <text x="956" y="46" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10.5" fill="#7b7b7b" text-anchor="end">4 OF 6 REPOSITORIES CLASSIFIED</text>
   <line x1="44" y1="64" x2="956" y2="64" stroke="#ffffff" stroke-opacity="0.07"/>
-  <rect x="44.0" y="86" width="406.4" height="12" rx="6" fill="#a447ff"/>
-  <rect x="452.4" y="86" width="175.0" height="12" rx="6" fill="#7b1dff"/>
-  <rect x="629.3" y="86" width="93.3" height="12" rx="6" fill="#8b5cf6"/>
-  <rect x="724.6" y="86" width="52.4" height="12" rx="6" fill="#a78bfa"/>
-  <rect x="779.0" y="86" width="52.4" height="12" rx="6" fill="#c0a0f0"/>
-  <rect x="833.5" y="86" width="38.8" height="12" rx="6" fill="#d6c6f5"/>
-  <rect x="874.3" y="86" width="25.2" height="12" rx="6" fill="#ffffff"/>
-  <rect x="901.6" y="86" width="25.2" height="12" rx="6" fill="#d9d9d9"/>
-  <rect x="928.8" y="86" width="11.6" height="12" rx="6" fill="#9e9e9e"/>
-  <rect x="942.4" y="86" width="11.6" height="12" rx="6" fill="#7b7b7b"/>
+  <rect x="44.0" y="86" width="454.0" height="12" rx="6" fill="#a447ff"/>
+  <rect x="500.0" y="86" width="226.0" height="12" rx="6" fill="#7b1dff"/>
+  <rect x="728.0" y="86" width="226.0" height="12" rx="6" fill="#8b5cf6"/>
   <circle cx="49" cy="130" r="5" fill="#a447ff"/>
-  <text x="63" y="134" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.92">TypeScript</text>
-  <text x="476" y="134" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#7b7b7b" text-anchor="end">44.8% · 30 repos</text>
+  <text x="63" y="134" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.92">JavaScript</text>
+  <text x="476" y="134" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#7b7b7b" text-anchor="end">50.0% · 2 repos</text>
   <circle cx="49" cy="154" r="5" fill="#7b1dff"/>
-  <text x="63" y="158" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.92">JavaScript</text>
-  <text x="476" y="158" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#7b7b7b" text-anchor="end">19.4% · 13 repos</text>
-  <circle cx="49" cy="178" r="5" fill="#8b5cf6"/>
-  <text x="63" y="182" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.92">Astro</text>
-  <text x="476" y="182" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#7b7b7b" text-anchor="end">10.4% · 7 repos</text>
-  <circle cx="49" cy="202" r="5" fill="#a78bfa"/>
-  <text x="63" y="206" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.92">HTML</text>
-  <text x="476" y="206" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#7b7b7b" text-anchor="end">6.0% · 4 repos</text>
-  <circle cx="49" cy="226" r="5" fill="#c0a0f0"/>
-  <text x="63" y="230" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.92">Python</text>
-  <text x="476" y="230" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#7b7b7b" text-anchor="end">6.0% · 4 repos</text>
-  <circle cx="505" cy="130" r="5" fill="#d6c6f5"/>
-  <text x="519" y="134" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.92">GDScript</text>
-  <text x="932" y="134" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#7b7b7b" text-anchor="end">4.5% · 3 repos</text>
-  <circle cx="505" cy="154" r="5" fill="#ffffff"/>
-  <text x="519" y="158" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.92">C</text>
-  <text x="932" y="158" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#7b7b7b" text-anchor="end">3.0% · 2 repos</text>
-  <circle cx="505" cy="178" r="5" fill="#d9d9d9"/>
-  <text x="519" y="182" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.92">C#</text>
-  <text x="932" y="182" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#7b7b7b" text-anchor="end">3.0% · 2 repos</text>
-  <circle cx="505" cy="202" r="5" fill="#9e9e9e"/>
-  <text x="519" y="206" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.92">C++</text>
-  <text x="932" y="206" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#7b7b7b" text-anchor="end">1.5% · 1 repos</text>
-  <circle cx="505" cy="226" r="5" fill="#7b7b7b"/>
-  <text x="519" y="230" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.92">PureBasic</text>
-  <text x="932" y="230" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#7b7b7b" text-anchor="end">1.5% · 1 repos</text>
+  <text x="63" y="158" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.92">HTML</text>
+  <text x="476" y="158" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#7b7b7b" text-anchor="end">25.0% · 1 repos</text>
+  <circle cx="505" cy="130" r="5" fill="#8b5cf6"/>
+  <text x="519" y="134" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.92">TypeScript</text>
+  <text x="932" y="134" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="13" fill="#7b7b7b" text-anchor="end">25.0% · 1 repos</text>
 </svg>
