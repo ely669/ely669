@@ -29,13 +29,30 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Generate cards
+      # The default GITHUB_TOKEN cannot see private repositories: running with it
+      # would rewrite the cards with public-only numbers (6 repos, 15 commits).
+      # Skip instead, and say why.
+      - name: Check credentials
+        id: creds
         env:
-          GH_TOKEN: ${{ secrets.GH_STATS_TOKEN || github.token }}
+          STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+        run: |
+          if [ -n "$STATS_TOKEN" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::GH_STATS_TOKEN is not set. Skipping: the default token sees only public repos and would overwrite the cards with wrong numbers."
+          fi
+
+      - name: Generate cards
+        if: steps.creds.outputs.ready == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
           GH_USER: ${{ github.repository_owner }}
         run: node scripts/update-stats.mjs
 
       - name: Commit if changed
+        if: steps.creds.outputs.ready == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

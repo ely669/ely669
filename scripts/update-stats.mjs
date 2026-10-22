@@ -311,6 +311,17 @@ function languagesSvg(languages, repoCount) {
 // --- main --------------------------------------------------------------------
 
 const { repos, createdAt } = await fetchRepos();
+
+// Second line of defence: a token without the repo scope still answers every
+// query, it just cannot see private repositories — which would silently rewrite
+// the cards with a fraction of the real numbers.
+if (!repos.some((r) => r.isPrivate)) {
+  console.error(
+    `Refusing to write: no private repository is visible (${repos.length} repos total).\n` +
+      "GH_TOKEN needs the 'repo' scope; the default Actions token is not enough."
+  );
+  process.exit(1);
+}
 const { days, privateCount } = await fetchCalendar(createdAt);
 const commits = await countCommits(repos);
 const { current: currentStreak, longest: longestStreak } = streaks(days);
