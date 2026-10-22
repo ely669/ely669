@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:414868,100:7aa2f7&height=200&section=header&text=elydev&fontColor=c0caf5&fontSize=80&fontAlignY=31&desc=agents%20write%20the%20code%20%E2%80%94%20I%20build%20the%20system%20that%20makes%20it%20shippable&descAlignY=49&descSize=16&animation=fadeIn" width="100%" alt="elydev" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:414868,100:7aa2f7&height=230&section=header&text=elydev&fontColor=c0caf5&fontSize=72&fontAlignY=27&desc=agents%20write%20the%20code%20%E2%80%94%20I%20build%20the%20system%20that%20makes%20it%20shippable&descAlignY=50&descSize=15&animation=fadeIn" width="100%" alt="elydev" />
 
 <a href="https://github.com/ely669">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&pause=1200&color=7AA2F7&center=true&vCenter=true&width=720&lines=Harness+engineer+%E2%80%94+I+build+what+builds+the+product;Five+roles%2C+a+verification+gate%2C+zero+human-written+lines;From+SaaS+and+PDF+engines+to+%248+ESP32+firmware;Goi%C3%A1s%2C+Brazil" alt="what I do" />
