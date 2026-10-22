@@ -1,139 +1,106 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:414868,100:7aa2f7&height=230&section=header&text=elydev&fontColor=c0caf5&fontSize=72&fontAlignY=27&desc=agents%20write%20the%20code%20%E2%80%94%20I%20build%20the%20system%20that%20makes%20it%20shippable&descAlignY=50&descSize=15&animation=fadeIn" width="100%" alt="elydev" />
+<img src="./assets/header.svg" width="100%" alt="elydev — full-stack developer" />
+
+<br/>
 
 <a href="https://github.com/ely669">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&pause=1200&color=7AA2F7&center=true&vCenter=true&width=720&lines=Harness+engineer+%E2%80%94+I+build+what+builds+the+product;Five+roles%2C+a+verification+gate%2C+zero+human-written+lines;From+SaaS+and+PDF+engines+to+%248+ESP32+firmware;Goi%C3%A1s%2C+Brazil" alt="what I do" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&pause=1300&color=A447FF&center=true&vCenter=true&width=780&lines=TypeScript+%C2%B7+React+%C2%B7+Next.js+%C2%B7+Astro+%C2%B7+Node.js;Python+%C2%B7+PostgreSQL+%C2%B7+Supabase+%C2%B7+Stripe+%C2%B7+Docker;C%2FC%2B%2B+on+ESP32+%E2%80%94+firmware%2C+REST+APIs%2C+OTA+updates;3%2C398+commits+across+72+repositories" alt="stack" />
 </a>
 
 <br/>
 
-<img src="https://img.shields.io/badge/focus-autonomous_agent_harnesses-7aa2f7?style=for-the-badge&labelColor=1a1b27" alt="focus" />
-<img src="https://img.shields.io/badge/mode-ship_it-9ece6a?style=for-the-badge&labelColor=1a1b27" alt="mode" />
-<img src="https://komarev.com/ghpvc/?username=ely669&color=bb9af7&style=for-the-badge&label=PROFILE+VIEWS" alt="profile views" />
+<img src="https://img.shields.io/badge/available_for-freelance_%26_projects-7b1dff?style=flat-square&labelColor=0a0a0a" alt="available for freelance and project work" />
+<img src="https://img.shields.io/badge/remote-worldwide-ffffff?style=flat-square&labelColor=0a0a0a" alt="remote" />
+<img src="https://img.shields.io/badge/based_in-Goi%C3%A1s%2C_Brazil-7b7b7b?style=flat-square&labelColor=0a0a0a" alt="Goiás, Brazil" />
 
 </div>
 
 ---
 
-## `>` whoami
+## About
 
-```ts
-const elydev = {
-  role:    "harness engineer / product builder",
-  thesis:  "the bottleneck is not writing code, it is verifying it",
-  method:  "five agent roles + a verification gate inside the loop",
-  proof:   "a real SaaS shipped with zero human-written lines",
-  stack:   ["TypeScript", "Astro", "Next.js", "Python", "C++", "GDScript"],
-  range:   "parametric 3D SaaS -> print-fidelity PDF engines -> $8 ESP32 firmware",
-  based:   "Goias, Brazil",
-};
-```
+Senior full-stack developer. I take products from an empty repository to production — interface, API, database, payments and deploy — and when the product has hardware in it, the firmware too.
 
-I do not write features one at a time. I build the **harness** — the roles, the gates, the hooks — and let coding agents run inside it. Then I point it at something hard and find out whether it holds.
+- **Web platforms.** SaaS products, dashboards and marketing sites in **TypeScript**, **React**, **Next.js** and **Astro**, styled with **Tailwind**, deployed on **Vercel**.
+- **Backend and data.** REST APIs in **Node.js** and **Python**, schemas on **PostgreSQL** / **Supabase**, **Stripe** billing, and document and invoicing pipelines (Brazilian NFS-e) automated end to end.
+- **Embedded.** Firmware in **C / C++** for **ESP32** and **ESP32-C3** — touch UI, Wi-Fi provisioning, REST API, OTA — with the web panel and Android app that drive it.
+- **Graphics and 3D.** **Three.js** in the browser, **Godot** for games, GPU video pipelines for motion graphics.
+
+Currently taking **freelance and project work**, remote. Fixed scope or ongoing.
 
 ---
 
-## `>` selected work
+## Tech stack
 
-| | project | what it is |
+<div align="center">
+
+<img src="./assets/stack.svg" width="100%" alt="TypeScript, JavaScript, Python, C++, C, C#/.NET, Bash, React, Next.js, Astro, Tailwind CSS, Vite, Three.js, Figma, Node.js, Express, Supabase, PostgreSQL, Prisma, Redis, Docker, Arduino, Espressif ESP32, Raspberry Pi, Godot, Blender, Git, GitHub Actions, Vercel, Linux, Stripe" />
+
+</div>
+
+---
+
+## By the numbers
+
+<div align="center">
+
+<img src="./assets/stats.svg" width="100%" alt="6,056 contributions · 3,398 commits · 72 repositories" />
+
+<img src="./assets/contributions.svg" width="100%" alt="contribution calendar, last 12 months" />
+
+<img src="./assets/languages.svg" width="100%" alt="languages by repository" />
+
+</div>
+
+> **Why these cards are custom.** 92% of these repositories are private client work, so the usual stat widgets — which only read public repos — report close to zero for this account. These are generated from the authenticated GitHub API by [`scripts/update-stats.mjs`](scripts/update-stats.mjs) and refreshed daily by [a GitHub Actions workflow](.github/workflows/update-stats.yml). The commit count is measured per repository, not estimated.
+
+---
+
+## Selected work
+
+| project | stack | what it is |
 |---|---|---|
-| 🧩 | **harness-flowera** `private` | Harness for autonomous coding agents: five roles, a verification gate in the loop, enforcement by hook. Validated by building a real SaaS with **zero lines written by humans**. |
-| 📚 | **flowebooks** `private` | AI-first SaaS that turns a one-sentence idea into a finished professional ebook. Built end to end by agents running the harness above. |
-| 🧊 | **flowera-3d** `private` | Parametric 3D model platform — customize a model and see it in the browser instantly. |
-| 🖨️ | **flowera-doc-builder** `private` | Generates and replicates print teaching material as PDF with *verifiable* fidelity: six measured document families, ReportLab, token-by-token comparator. |
-| 🎬 | **flowera-motion-graphics** `private` | GPU motion-graphics pipeline — video, audio and QA for social creatives, driven entirely from code. |
-| 🔌 | **CLAUDE-CYD-AI-CHAT** `private` | Claude chat running on a cheap ESP32 touch display: subscription OAuth, pt-BR interface, hardware tools, HTTP API. |
-| 🛰️ | **flow-desktop-companion** `private` · [**flow-app**](https://github.com/ely669/flow-app) | Open firmware for an ESP32-C3 + OLED desk companion, with a web panel and REST API — plus its Android app. |
-| 👁️ | **ocr-chrome** `private` | Local OCR built on the Screen AI engine inside Chrome — library, CLI and HTTP API. No cloud, no per-page cost. |
-| 🎸 | **guitar3d-engine** `private` | Web engine that turns Guitar Pro tabs into 3D guitar playthrough videos (Three.js + alphaTab + mediabunny). |
-| ⚖️ | **Golden Jus** `private` | Legal-education product suite: Astro sites, study platforms and automated NFS-e invoicing for the practice. |
+| **Flowebooks** `private` | Next.js · TypeScript · Supabase · Stripe | SaaS that turns a one-sentence idea into a finished, formatted ebook — editor, generation pipeline, checkout and delivery. |
+| **Flowera 3D** `private` | Next.js · Three.js · TypeScript · Stripe | Parametric 3D model platform: customise a model in the browser, see it rendered instantly, pay and download. |
+| **Golden Jus** `private` | Astro · TypeScript · Tailwind · Python | Legal-education product suite — sites, study platform and automated NFS-e invoicing against the Brazilian national issuer. |
+| **Aprova.ai** `private` | Next.js 16 · React 19 · shadcn/ui | Study dashboard built pixel-faithful to its Figma design system. |
+| [**AutoGest**](https://github.com/ely669/autogest-app) | React Native (Expo) · Express · TypeScript | Management platform for car repair shops — mobile app plus REST backend. |
+| **flowera-doc-builder** `private` | Python · ReportLab | PDF engine for printed teaching material with *verifiable* fidelity: six measured document families and a token-by-token comparator. |
+| **flowera-motion-graphics** `private` | JavaScript · GPU pipeline · FFmpeg | Motion-graphics and creative pipeline — video, audio and automated QA, driven entirely from code. |
+| **CLAUDE-CYD-AI-CHAT** `private` | C · ESP32 · TFT/LVGL · OAuth | AI chat running on a low-cost ESP32 touch display: OAuth sign-in, pt-BR interface, hardware tools, HTTP API. |
+| **Desk Companion** `private` · [app](https://github.com/ely669/flow-app) | C++ · ESP32-C3 · REST · Android | Open firmware for an OLED desk companion, with a web panel, REST API and companion Android app. |
+| **ocr-chrome** `private` | JavaScript · Chrome Screen AI | Local OCR built on the engine shipped inside Chrome — library, CLI and HTTP API. No cloud, no per-page cost. |
+| **guitar3d-engine** `private` | Three.js · alphaTab · mediabunny | Web engine that renders Guitar Pro tablature as 3D guitar playthrough videos. |
 
-> Most of the above lives in private repos — client work and products in flight. Happy to walk through the architecture and the code on request.
+Most of these are private repositories — client work and products in flight. I walk through architecture and code on request.
 
 ---
 
-## `>` stack
+## What I bring to a team
+
+**The whole thing ships.** Interface, API, schema, payments, deploy and the monitoring afterwards. No gaps between layers, because there is no handoff between people.
+
+**Measured, not assumed.** "Looks right" is not a result. I verify with tests, typed boundaries and comparators that show the diff — the cards above are generated and refreshed by code, not pasted screenshots.
+
+**Hardware when the product needs it.** Few web developers also flash the device, write its REST API and ship the app that talks to it. When a product spans both, that is one less vendor to coordinate.
+
+---
+
+## Get in touch
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/TypeScript-1a1b27?style=for-the-badge&logo=typescript&logoColor=7aa2f7" alt="TypeScript" />
-<img src="https://img.shields.io/badge/Next.js-1a1b27?style=for-the-badge&logo=nextdotjs&logoColor=c0caf5" alt="Next.js" />
-<img src="https://img.shields.io/badge/Astro-1a1b27?style=for-the-badge&logo=astro&logoColor=bb9af7" alt="Astro" />
-<img src="https://img.shields.io/badge/React-1a1b27?style=for-the-badge&logo=react&logoColor=7dcfff" alt="React" />
-<img src="https://img.shields.io/badge/Tailwind-1a1b27?style=for-the-badge&logo=tailwindcss&logoColor=7dcfff" alt="Tailwind CSS" />
-<br/>
-<img src="https://img.shields.io/badge/Python-1a1b27?style=for-the-badge&logo=python&logoColor=9ece6a" alt="Python" />
-<img src="https://img.shields.io/badge/C++-1a1b27?style=for-the-badge&logo=cplusplus&logoColor=7aa2f7" alt="C++" />
-<img src="https://img.shields.io/badge/ESP32-1a1b27?style=for-the-badge&logo=espressif&logoColor=f7768e" alt="ESP32" />
-<img src="https://img.shields.io/badge/Godot-1a1b27?style=for-the-badge&logo=godotengine&logoColor=7dcfff" alt="Godot" />
-<img src="https://img.shields.io/badge/Three.js-1a1b27?style=for-the-badge&logo=threedotjs&logoColor=c0caf5" alt="Three.js" />
-<br/>
-<img src="https://img.shields.io/badge/Supabase-1a1b27?style=for-the-badge&logo=supabase&logoColor=9ece6a" alt="Supabase" />
-<img src="https://img.shields.io/badge/Vercel-1a1b27?style=for-the-badge&logo=vercel&logoColor=c0caf5" alt="Vercel" />
-<img src="https://img.shields.io/badge/Stripe-1a1b27?style=for-the-badge&logo=stripe&logoColor=bb9af7" alt="Stripe" />
-<img src="https://img.shields.io/badge/Figma-1a1b27?style=for-the-badge&logo=figma&logoColor=f7768e" alt="Figma" />
-<img src="https://img.shields.io/badge/Claude_Code-1a1b27?style=for-the-badge&logo=anthropic&logoColor=ff8c69" alt="Claude Code" />
-
-</div>
-
----
-
-## `>` how I work
-
-```
-┌─ ARCHITECT ──► designs the change, owns the contract
-├─ BUILDER ────► writes it, inside the declared scope only
-├─ VERIFIER ───► the gate: tests, types, runtime proof — no pass, no merge
-├─ REVIEWER ───► hunts the bug the verifier cannot express as a test
-└─ SCRIBE ─────► records state so the next session starts informed
-        │
-        └─► enforced by hooks, not by good intentions
-```
-
-Three rules I do not bend:
-
-- **The gate lives inside the loop, not after it.** An agent that reports "done" without a green verifier has not finished — the harness decides that, not the model.
-- **Scope is declared, then enforced.** Drift is a tooling problem. Hooks make an out-of-scope edit fail instead of merge.
-- **Fidelity is measured.** "Looks right" is not a result. Compare token by token, pixel by pixel, and show the diff.
-
----
-
-## `>` stats
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ely669&theme=tokyonight" width="100%" alt="contributions" />
-
-<br/>
-
-<img height="192" src="https://streak-stats.demolab.com?user=ely669&theme=tokyonight&hide_border=true&background=1a1b27&ring=7aa2f7&fire=bb9af7&currStreakLabel=7dcfff&sideLabels=c0caf5&dates=565f89" alt="contribution streak" />
-<img height="192" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ely669&theme=tokyonight&utcOffset=-3" alt="productive time" />
-
-<br/>
-
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ely669&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5&langs_count=8&card_width=400" alt="top languages" />
-
-</div>
-
----
-
-## `>` contact
-
-<div align="center">
-
-<a href="https://flowera.pro"><img src="https://img.shields.io/badge/flowera.pro-1a1b27?style=for-the-badge&logo=googlechrome&logoColor=9ece6a" alt="Website" /></a>
-<a href="https://www.linkedin.com/in/ely-araujo-91b52a14a/"><img src="https://img.shields.io/badge/LinkedIn-1a1b27?style=for-the-badge&logo=linkedin&logoColor=7aa2f7" alt="LinkedIn" /></a>
-<a href="https://www.instagram.com/ely.dev_/"><img src="https://img.shields.io/badge/@ely.dev__-1a1b27?style=for-the-badge&logo=instagram&logoColor=f7768e" alt="Instagram" /></a>
-<a href="https://github.com/ely669"><img src="https://img.shields.io/badge/GitHub-1a1b27?style=for-the-badge&logo=github&logoColor=c0caf5" alt="GitHub" /></a>
+<a href="https://flowera.pro"><img src="https://img.shields.io/badge/flowera.pro-0a0a0a?style=flat-square&logo=googlechrome&logoColor=ffffff" alt="Website" /></a>
+<a href="https://www.linkedin.com/in/ely-araujo-91b52a14a/"><img src="https://img.shields.io/badge/LinkedIn-0a0a0a?style=flat-square&logo=linkedin&logoColor=ffffff" alt="LinkedIn" /></a>
+<a href="https://www.instagram.com/ely.dev_/"><img src="https://img.shields.io/badge/@ely.dev__-0a0a0a?style=flat-square&logo=instagram&logoColor=ffffff" alt="Instagram" /></a>
+<a href="https://github.com/ely669"><img src="https://img.shields.io/badge/GitHub-0a0a0a?style=flat-square&logo=github&logoColor=ffffff" alt="GitHub" /></a>
 <!-- Para publicar seu e-mail, descomente e troque o endereço:
-<a href="mailto:voce@exemplo.com"><img src="https://img.shields.io/badge/Email-1a1b27?style=for-the-badge&logo=gmail&logoColor=bb9af7" alt="Email" /></a>
+<a href="mailto:voce@exemplo.com"><img src="https://img.shields.io/badge/Email-0a0a0a?style=flat-square&logo=gmail&logoColor=ffffff" alt="Email" /></a>
 -->
 
 <br/><br/>
 
-<i>Building something that has to actually ship? Open an issue on this repo.</i>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,50:414868,100:1a1b27&height=120&section=footer" width="100%" alt="" />
+**Hiring or scoping a project?** Send the brief — you get scope, timeline and price back.
 
 </div>

@@ -1,0 +1,48 @@
+name: update stats
+
+# Public stat services only count public repositories, so they report close to
+# zero for this account. This job rebuilds the cards from the authenticated API,
+# which can see private work too.
+#
+# Set the GH_STATS_TOKEN secret to a classic PAT with the `repo` scope for the
+# private numbers; without it the job still runs, counting public repos only.
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/update-stats.mjs"
+      - ".github/workflows/update-stats.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate cards
+        env:
+          GH_TOKEN: ${{ secrets.GH_STATS_TOKEN || github.token }}
+          GH_USER: ${{ github.repository_owner }}
+        run: node scripts/update-stats.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg assets/languages.svg
+          if git diff --staged --quiet; then
+            echo "No change in the generated cards."
+          else
+            git commit -m "Refresh stat cards"
+            git push
+          fi
