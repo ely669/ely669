@@ -122,11 +122,12 @@ Three rules I do not bend:
 
 <div align="center">
 
+<a href="https://flowera.pro"><img src="https://img.shields.io/badge/flowera.pro-1a1b27?style=for-the-badge&logo=googlechrome&logoColor=9ece6a" alt="Website" /></a>
+<a href="https://www.linkedin.com/in/ely-araujo-91b52a14a/"><img src="https://img.shields.io/badge/LinkedIn-1a1b27?style=for-the-badge&logo=linkedin&logoColor=7aa2f7" alt="LinkedIn" /></a>
+<a href="https://www.instagram.com/ely.dev_/"><img src="https://img.shields.io/badge/@ely.dev__-1a1b27?style=for-the-badge&logo=instagram&logoColor=f7768e" alt="Instagram" /></a>
 <a href="https://github.com/ely669"><img src="https://img.shields.io/badge/GitHub-1a1b27?style=for-the-badge&logo=github&logoColor=c0caf5" alt="GitHub" /></a>
-<!-- Troque o # pela URL real e o badge aparece no perfil:
-<a href="#"><img src="https://img.shields.io/badge/LinkedIn-1a1b27?style=for-the-badge&logo=linkedin&logoColor=7aa2f7" alt="LinkedIn" /></a>
-<a href="#"><img src="https://img.shields.io/badge/Website-1a1b27?style=for-the-badge&logo=googlechrome&logoColor=9ece6a" alt="Website" /></a>
-<a href="mailto:#"><img src="https://img.shields.io/badge/Email-1a1b27?style=for-the-badge&logo=gmail&logoColor=f7768e" alt="Email" /></a>
+<!-- Para publicar seu e-mail, descomente e troque o endereço:
+<a href="mailto:voce@exemplo.com"><img src="https://img.shields.io/badge/Email-1a1b27?style=for-the-badge&logo=gmail&logoColor=bb9af7" alt="Email" /></a>
 -->
 
 <br/><br/>
