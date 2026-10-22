@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:414868,100:7aa2f7&height=200&section=header&text=elydev&fontColor=c0caf5&fontSize=80&fontAlignY=34&desc=agents%20write%20the%20code%20%E2%80%94%20I%20build%20the%20system%20that%20makes%20it%20shippable&descAlignY=56&descSize=15&animation=fadeIn" width="100%" alt="elydev" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:414868,100:7aa2f7&height=200&section=header&text=elydev&fontColor=c0caf5&fontSize=80&fontAlignY=31&desc=agents%20write%20the%20code%20%E2%80%94%20I%20build%20the%20system%20that%20makes%20it%20shippable&descAlignY=49&descSize=16&animation=fadeIn" width="100%" alt="elydev" />
 
 <a href="https://github.com/ely669">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&pause=1200&color=7AA2F7&center=true&vCenter=true&width=720&lines=Harness+engineer+%E2%80%94+I+build+what+builds+the+product;Five+roles%2C+a+verification+gate%2C+zero+human-written+lines;From+SaaS+and+PDF+engines+to+%248+ESP32+firmware;Goi%C3%A1s%2C+Brazil" alt="what I do" />
@@ -103,21 +103,16 @@ Three rules I do not bend:
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=ely669&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&icon_color=bb9af7&text_color=c0caf5&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ely669&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5&langs_count=8" alt="top languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ely669&theme=tokyonight" width="100%" alt="contributions" />
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=ely669&theme=tokyonight&hide_border=true&background=1a1b27&ring=7aa2f7&fire=bb9af7&currStreakLabel=7dcfff&sideLabels=c0caf5&dates=565f89" alt="contribution streak" />
+<img height="192" src="https://streak-stats.demolab.com?user=ely669&theme=tokyonight&hide_border=true&background=1a1b27&ring=7aa2f7&fire=bb9af7&currStreakLabel=7dcfff&sideLabels=c0caf5&dates=565f89" alt="contribution streak" />
+<img height="192" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ely669&theme=tokyonight&utcOffset=-3" alt="productive time" />
 
 <br/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ely669&theme=tokyonight" width="100%" alt="profile summary" />
-
-<br/>
-
-<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ely669&theme=tokyonight&utcOffset=-3" alt="productive time" />
-<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ely669&theme=tokyonight" alt="repos per language" />
+<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ely669&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&text_color=c0caf5&langs_count=8&card_width=400" alt="top languages" />
 
 </div>
 
