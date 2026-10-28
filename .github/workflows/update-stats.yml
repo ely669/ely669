@@ -4,8 +4,9 @@ name: update stats
 # zero for this account. This job rebuilds the cards from the authenticated API,
 # which can see private work too.
 #
-# Set the GH_STATS_TOKEN secret to a classic PAT with the `repo` scope for the
-# private numbers; without it the job still runs, counting public repos only.
+# Needs the GH_STATS_TOKEN secret: a token with the `repo` scope. Without it the
+# job fails on purpose, so a missing or expired token shows up as a red run (and
+# an email) instead of cards that silently stop updating.
 
 on:
   schedule:
@@ -23,40 +24,34 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: "24"
 
       # The default GITHUB_TOKEN cannot see private repositories: running with it
       # would rewrite the cards with public-only numbers (6 repos, 15 commits).
-      # Skip instead, and say why.
       - name: Check credentials
-        id: creds
         env:
           STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
         run: |
-          if [ -n "$STATS_TOKEN" ]; then
-            echo "ready=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "ready=false" >> "$GITHUB_OUTPUT"
-            echo "::warning::GH_STATS_TOKEN is not set. Skipping: the default token sees only public repos and would overwrite the cards with wrong numbers."
+          if [ -z "$STATS_TOKEN" ]; then
+            echo "::error::GH_STATS_TOKEN is not set. The default token sees only public repos and would overwrite the cards with wrong numbers."
+            exit 1
           fi
 
       - name: Generate cards
-        if: steps.creds.outputs.ready == 'true'
         env:
           GH_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
           GH_USER: ${{ github.repository_owner }}
         run: node scripts/update-stats.mjs
 
       - name: Commit if changed
-        if: steps.creds.outputs.ready == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg assets/languages.svg
+          git add assets/stats.svg assets/contributions.svg assets/languages.svg README.md
           if git diff --staged --quiet; then
             echo "No change in the generated cards."
           else

@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Generates assets/stats.svg, assets/contributions.svg and assets/languages.svg
-// from the GitHub API, styled with the Flowera design system.
+// from the GitHub API, styled with the Flowera design system, and keeps the
+// numbers quoted in README.md in step with them.
 //
 // Public stat widgets only count public repositories; nearly all of this
 // account's work is private, so they report close to zero. These cards are built
@@ -8,7 +9,7 @@
 //
 // Usage: GH_TOKEN=<token with repo scope> node scripts/update-stats.mjs
 
-import { writeFile, mkdir, stat } from "node:fs/promises";
+import { readFile, writeFile, mkdir, stat } from "node:fs/promises";
 import { BRAND, FONT_STACK, esc, fmt, panel, sectionLabel } from "./brand.mjs";
 
 const TOKEN = process.env.GH_TOKEN;
@@ -362,6 +363,26 @@ await mkdir("assets", { recursive: true });
 await writeFile("assets/stats.svg", statsSvg(stats));
 await writeFile("assets/contributions.svg", contributionsSvg(days, lastYear));
 await writeFile("assets/languages.svg", languagesSvg(languages, repos.length));
+
+// The README repeats some of these numbers as text (typing banner, alt text,
+// the "why custom" note); without this they drift from the cards.
+const readmeFacts = [
+  [
+    /[0-9%C]+\+commits\+across\+\d+\+repositories/,
+    `${encodeURIComponent(fmt(stats.commits))}+commits+across+${stats.repos}+repositories`,
+  ],
+  [
+    /alt="[\d,]+ contributions · [\d,]+ commits · [\d,]+ repositories"/,
+    `alt="${fmt(stats.contributions)} contributions · ${fmt(stats.commits)} commits · ${fmt(stats.repos)} repositories"`,
+  ],
+  [/(?<=\*\*Why these cards are custom\.\*\* )\d+%/, `${stats.privateShare}%`],
+];
+let readme = await readFile("README.md", "utf8");
+for (const [pattern, replacement] of readmeFacts) {
+  if (!pattern.test(readme)) console.warn(`README.md: nothing matches ${pattern}, left as is`);
+  readme = readme.replace(pattern, replacement);
+}
+await writeFile("README.md", readme);
 
 console.log(
   `contributions=${stats.contributions} (last year ${lastYear}, ${privateCount} private) ` +
