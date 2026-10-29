@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-label="Contribution calendar">
   <rect x="0.5" y="0.5" width="999" height="229" rx="24" fill="#0d0d0d" stroke="#ffffff" stroke-opacity="0.09"/>
   <text x="44" y="46" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10.5" letter-spacing="2.4" fill="#7b7b7b">CONTRIBUTIONS — LAST 12 MONTHS</text>
-  <text x="956" y="46" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10.5" fill="#7b7b7b" text-anchor="end">6,378 IN THE LAST YEAR</text>
+  <text x="956" y="46" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10.5" fill="#7b7b7b" text-anchor="end">6,407 IN THE LAST YEAR</text>
   <line x1="44" y1="64" x2="956" y2="64" stroke="#ffffff" stroke-opacity="0.07"/>
   <text x="44" y="74" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10.5" fill="#7b7b7b">Oct</text>
   <text x="58" y="74" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10.5" fill="#7b7b7b">Nov</text>
@@ -132,7 +132,7 @@
   <rect x="268" y="100" width="11" height="11" rx="2.5" fill="#7b1dff" fill-opacity="0.95"><title>2026-02-16: 16</title></rect>
   <rect x="268" y="114" width="11" height="11" rx="2.5" fill="#ffffff" fill-opacity="0.06"><title>2026-02-17: 0</title></rect>
   <rect x="268" y="128" width="11" height="11" rx="2.5" fill="#7b1dff" fill-opacity="0.6"><title>2026-02-18: 7</title></rect>
-  <rect x="268" y="142" width="11" height="11" rx="2.5" fill="#a447ff" fill-opacity="1"><title>2026-02-19: 25</title></rect>
+  <rect x="268" y="142" width="11" height="11" rx="2.5" fill="#7b1dff" fill-opacity="0.95"><title>2026-02-19: 25</title></rect>
   <rect x="268" y="156" width="11" height="11" rx="2.5" fill="#7b1dff" fill-opacity="0.95"><title>2026-02-20: 15</title></rect>
   <rect x="268" y="170" width="11" height="11" rx="2.5" fill="#7b1dff" fill-opacity="0.95"><title>2026-02-21: 17</title></rect>
   <rect x="282" y="86" width="11" height="11" rx="2.5" fill="#7b1dff" fill-opacity="0.95"><title>2026-02-22: 13</title></rect>
@@ -341,7 +341,7 @@
   <rect x="688" y="86" width="11" height="11" rx="2.5" fill="#ffffff" fill-opacity="0.06"><title>2026-09-13: 0</title></rect>
   <rect x="688" y="100" width="11" height="11" rx="2.5" fill="#c0a0f0" fill-opacity="0.38"><title>2026-09-14: 4</title></rect>
   <rect x="688" y="114" width="11" height="11" rx="2.5" fill="#a447ff" fill-opacity="1"><title>2026-09-15: 54</title></rect>
-  <rect x="688" y="128" width="11" height="11" rx="2.5" fill="#a447ff" fill-opacity="1"><title>2026-09-16: 25</title></rect>
+  <rect x="688" y="128" width="11" height="11" rx="2.5" fill="#7b1dff" fill-opacity="0.95"><title>2026-09-16: 25</title></rect>
   <rect x="688" y="142" width="11" height="11" rx="2.5" fill="#ffffff" fill-opacity="0.06"><title>2026-09-17: 0</title></rect>
   <rect x="688" y="156" width="11" height="11" rx="2.5" fill="#ffffff" fill-opacity="0.06"><title>2026-09-18: 0</title></rect>
   <rect x="688" y="170" width="11" height="11" rx="2.5" fill="#ffffff" fill-opacity="0.06"><title>2026-09-19: 0</title></rect>
@@ -383,7 +383,8 @@
   <rect x="772" y="86" width="11" height="11" rx="2.5" fill="#a447ff" fill-opacity="1"><title>2026-10-25: 49</title></rect>
   <rect x="772" y="100" width="11" height="11" rx="2.5" fill="#a447ff" fill-opacity="1"><title>2026-10-26: 49</title></rect>
   <rect x="772" y="114" width="11" height="11" rx="2.5" fill="#a447ff" fill-opacity="1"><title>2026-10-27: 111</title></rect>
-  <rect x="772" y="128" width="11" height="11" rx="2.5" fill="#7b1dff" fill-opacity="0.6"><title>2026-10-28: 9</title></rect>
+  <rect x="772" y="128" width="11" height="11" rx="2.5" fill="#a447ff" fill-opacity="1"><title>2026-10-28: 37</title></rect>
+  <rect x="772" y="142" width="11" height="11" rx="2.5" fill="#c0a0f0" fill-opacity="0.38"><title>2026-10-29: 1</title></rect>
   <text x="840" y="208" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10.5" fill="#7b7b7b" text-anchor="end">less</text>
   <rect x="848" y="198" width="11" height="11" rx="2.5" fill="#ffffff" fill-opacity="0.06"/>
   <rect x="864" y="198" width="11" height="11" rx="2.5" fill="#c0a0f0" fill-opacity="0.38"/>
