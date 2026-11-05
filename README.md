@@ -5,7 +5,7 @@
 <br/>
 
 <a href="https://github.com/ely669">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&pause=1300&color=A447FF&center=true&vCenter=true&width=780&lines=TypeScript+%C2%B7+React+%C2%B7+Next.js+%C2%B7+Astro+%C2%B7+Node.js;Python+%C2%B7+PostgreSQL+%C2%B7+Supabase+%C2%B7+Stripe+%C2%B7+Docker;C%2FC%2B%2B+on+ESP32+%E2%80%94+firmware%2C+REST+APIs%2C+OTA+updates;3%2C888+commits+across+78+repositories" alt="stack" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&pause=1300&color=A447FF&center=true&vCenter=true&width=780&lines=TypeScript+%C2%B7+React+%C2%B7+Next.js+%C2%B7+Astro+%C2%B7+Node.js;Python+%C2%B7+PostgreSQL+%C2%B7+Supabase+%C2%B7+Stripe+%C2%B7+Docker;C%2FC%2B%2B+on+ESP32+%E2%80%94+firmware%2C+REST+APIs%2C+OTA+updates;3%2C897+commits+across+80+repositories" alt="stack" />
 </a>
 
 <br/>
@@ -45,7 +45,7 @@ Currently taking **freelance and project work**, remote. Fixed scope or ongoing.
 
 <div align="center">
 
-<img src="./assets/stats.svg" width="100%" alt="6,544 contributions · 3,888 commits · 78 repositories" />
+<img src="./assets/stats.svg" width="100%" alt="6,559 contributions · 3,897 commits · 80 repositories" />
 
 <img src="./assets/contributions.svg" width="100%" alt="contribution calendar, last 12 months" />
 
@@ -53,7 +53,7 @@ Currently taking **freelance and project work**, remote. Fixed scope or ongoing.
 
 </div>
 
-> **Why these cards are custom.** 92% of these repositories are private client work, so the usual stat widgets — which only read public repos — report close to zero for this account. These are generated from the authenticated GitHub API by [`scripts/update-stats.mjs`](scripts/update-stats.mjs) and refreshed daily by [a GitHub Actions workflow](.github/workflows/update-stats.yml). The commit count is measured per repository, not estimated.
+> **Why these cards are custom.** 93% of these repositories are private client work, so the usual stat widgets — which only read public repos — report close to zero for this account. These are generated from the authenticated GitHub API by [`scripts/update-stats.mjs`](scripts/update-stats.mjs) and refreshed daily by [a GitHub Actions workflow](.github/workflows/update-stats.yml). The commit count is measured per repository, not estimated.
 
 ---
 
