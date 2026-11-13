@@ -5,7 +5,7 @@
 <br/>
 
 <a href="https://github.com/ely669">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&pause=1300&color=A447FF&center=true&vCenter=true&width=780&lines=TypeScript+%C2%B7+React+%C2%B7+Next.js+%C2%B7+Astro+%C2%B7+Node.js;Python+%C2%B7+PostgreSQL+%C2%B7+Supabase+%C2%B7+Stripe+%C2%B7+Docker;C%2FC%2B%2B+on+ESP32+%E2%80%94+firmware%2C+REST+APIs%2C+OTA+updates;4%2C134+commits+across+84+repositories" alt="stack" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&pause=1300&color=A447FF&center=true&vCenter=true&width=780&lines=TypeScript+%C2%B7+React+%C2%B7+Next.js+%C2%B7+Astro+%C2%B7+Node.js;Python+%C2%B7+PostgreSQL+%C2%B7+Supabase+%C2%B7+Stripe+%C2%B7+Docker;C%2FC%2B%2B+on+ESP32+%E2%80%94+firmware%2C+REST+APIs%2C+OTA+updates;4%2C127+commits+across+84+repositories" alt="stack" />
 </a>
 
 <br/>
@@ -45,7 +45,7 @@ Currently taking **freelance and project work**, remote. Fixed scope or ongoing.
 
 <div align="center">
 
-<img src="./assets/stats.svg" width="100%" alt="6,897 contributions · 4,134 commits · 84 repositories" />
+<img src="./assets/stats.svg" width="100%" alt="7,079 contributions · 4,127 commits · 84 repositories" />
 
 <img src="./assets/contributions.svg" width="100%" alt="contribution calendar, last 12 months" />
 
