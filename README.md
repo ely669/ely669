@@ -59,25 +59,25 @@ Currently taking **freelance and project work**, remote. Fixed scope or ongoing.
 
 ## Selected work
 
-Most of these are private repositories — client work and products in flight. Linked names are live; I walk through architecture and code on request.
+Most of these are private repositories — client work and products in flight. I walk through architecture and code on request.
 
 ### Products
 
 | project | stack | what it is |
 |---|---|---|
-| [**PostsUp**](https://postsup.vercel.app) `private` | Next.js 16 · Supabase · Vercel Workflow · Meta Graph API · Remotion | AI agent that creates social content through chat — carousels, posts and video from scratch — with a canvas/reels editor and scheduled publishing to Instagram, Facebook and Threads. |
+| **PostsUp** `private` | Next.js 16 · Supabase · Vercel Workflow · Meta Graph API · Remotion | AI agent that creates social content through chat — carousels, posts and video from scratch — with a canvas/reels editor and scheduled publishing to Instagram, Facebook and Threads. |
 | **Flowebooks** `private` | Next.js · TypeScript · Supabase · Stripe | SaaS that turns a one-sentence idea into a finished, formatted ebook — editor, generation pipeline, checkout and delivery. Built entirely by agents through **harness-flowera**. |
-| [**Flowera Study**](https://pdf-reader-mauve.vercel.app) `private` | React 19 · PDFium (WASM) · Web Workers · IndexedDB/OPFS · Neon | PDF reader where what you highlight becomes knowledge: highlights turn into blocks linked back to the exact spot in the PDF, then into flashcards scheduled by spaced repetition (FSRS). Rendering, selection and search run on PDFium in a worker. |
-| [**Voto Certo**](https://voto-certo-ten.vercel.app) `private` | React · TypeScript · Supabase · Edge Functions | Voting system for city councils: each councillor votes from their own account, a public panel shows the session as it happens, results are published per vote, and the clerk manages sessions, members and history. |
-| [**Flowera 3D**](https://flowera-3d.vercel.app) + **Flowera LAB** `private` | Next.js 16 · Three.js · manifold-3d (WASM) · Neon · MCP | Parametric 3D models customised in the browser: the mesh rebuilds in under 250 ms per slider move and exports as manifold-validated STL/3MF. Flowera LAB drives a Bambu Lab A1 printer from an agent over MCP (41 tools) — from slider to printed part. |
+| **Flowera Study** `private` | React 19 · PDFium (WASM) · Web Workers · IndexedDB/OPFS · Neon | PDF reader where what you highlight becomes knowledge: highlights turn into blocks linked back to the exact spot in the PDF, then into flashcards scheduled by spaced repetition (FSRS). Rendering, selection and search run on PDFium in a worker. |
+| **Voto Certo** `private` | React · TypeScript · Supabase · Edge Functions | Voting system for city councils: each councillor votes from their own account, a public panel shows the session as it happens, results are published per vote, and the clerk manages sessions, members and history. |
+| **Flowera 3D** + **Flowera LAB** `private` | Next.js 16 · Three.js · manifold-3d (WASM) · Neon · MCP | Parametric 3D models customised in the browser: the mesh rebuilds in under 250 ms per slider move and exports as manifold-validated STL/3MF. Flowera LAB drives a Bambu Lab A1 printer from an agent over MCP (41 tools) — from slider to printed part. |
 
 ### Education platforms
 
 | project | stack | what it is |
 |---|---|---|
-| [**Golden Jus**](https://goldenjus.vercel.app) `private` | React 19 · Supabase (triggers + RPC) · Astro · Python | Legal-exam prep suite. Its study platform, **Código Golden**, schedules every review on a D0→D45 spaced-repetition cycle and re-plans itself when the student falls behind — question lists, flashcards, error notebook, gamification, mentor–student scheduling, an AI mentor over MCP, Hubla payments and D4Sign contracts. Plus the marketing site and automated NFS-e invoicing. |
+| **Golden Jus** `private` | React 19 · Supabase (triggers + RPC) · Astro · Python | Legal-exam prep suite. Its study platform, **Código Golden**, schedules every review on a D0→D45 spaced-repetition cycle and re-plans itself when the student falls behind — question lists, flashcards, error notebook, gamification, mentor–student scheduling, an AI mentor over MCP, Hubla payments and D4Sign contracts. Plus the marketing site and automated NFS-e invoicing. |
 | **Golden Materiais** + question bank `private` | Python · ReportLab · Node.js · PostgreSQL | The production system behind every Golden PDF: editable source per chapter, official sources (statutes, court bulletins, past exams) checked citation by citation, the layout engine and production state. Plus the migration of the full question bank into normalised Postgres tables, and an archive of **114 past exams with 12,872 questions** extracted and structured. |
-| [**Pro Residência**](https://pro-residencia.vercel.app) `private` | React · TypeScript · Supabase (36 tables, RLS) · TanStack Query | Mentorship platform for medical residency exams: personalised schedules, spaced-repetition reviews, question bank, flashcards, full past exams and an analytics dashboard. |
+| **Pro Residência** `private` | React · TypeScript · Supabase (36 tables, RLS) · TanStack Query | Mentorship platform for medical residency exams: personalised schedules, spaced-repetition reviews, question bank, flashcards, full past exams and an analytics dashboard. |
 | **flowera-doc-builder** `private` | Python · ReportLab | PDF engine for printed teaching material with *verifiable* fidelity: six measured document families and a token-by-token comparator. |
 
 ### AI, agents and developer tools
@@ -94,15 +94,15 @@ Most of these are private repositories — client work and products in flight. L
 | project | stack | what it is |
 |---|---|---|
 | **CLAUDE-CYD-AI-CHAT** `private` | C · ESP32 · TFT/LVGL · OAuth | AI chat running on a low-cost ESP32 touch display: OAuth sign-in, pt-BR interface, hardware tools, HTTP API. |
-| **Desk Companion** `private` · [app](https://github.com/ely669/flow-app) | C++ · ESP32-C3 · REST · Android | Open firmware for an OLED desk companion, with a web panel, REST API and companion Android app. |
+| **Desk Companion** `private` | C++ · ESP32-C3 · REST · Android | Open firmware for an OLED desk companion, with a web panel, REST API and companion Android app. |
 
 ### Graphics, games and video
 
 | project | stack | what it is |
 |---|---|---|
 | **Último de Pé** `private` | Three.js · matter.js · Node.js · Supabase · Meta API | 3D demolition arena built for Instagram: cars fight in a physics arena, rendered headless on a GPU queue, called by a generated announcer and published automatically — tournaments in Supabase, comments and DMs answered by a bot. |
-| [**Guitar Clash**](https://guitar-clash.vercel.app) `private` | React · Three.js (R3F) · Supabase · PeerJS | Rhythm game in the browser: 3D highway, five-fret engine with HOPOs, taps, sustains and star power, a community chart catalogue, cloud progression, ranking and P2P multiplayer. |
-| [**guitar3d-engine**](https://guitar3d-engine.vercel.app) `private` | Three.js · alphaTab · mediabunny | Web engine that renders Guitar Pro tablature as 3D guitar playthrough videos, exported as MP4 straight from the browser. |
+| **Guitar Clash** `private` | React · Three.js (R3F) · Supabase · PeerJS | Rhythm game in the browser: 3D highway, five-fret engine with HOPOs, taps, sustains and star power, a community chart catalogue, cloud progression, ranking and P2P multiplayer. |
+| **guitar3d-engine** `private` | Three.js · alphaTab · mediabunny | Web engine that renders Guitar Pro tablature as 3D guitar playthrough videos, exported as MP4 straight from the browser. |
 | **flowera-motion-graphics** `private` | JavaScript · GPU pipeline · FFmpeg | Motion-graphics and creative pipeline — video, audio and automated QA, driven entirely from code. |
 
 ---
