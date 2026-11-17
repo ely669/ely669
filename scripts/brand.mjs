@@ -16,6 +16,14 @@ export const BRAND = {
   radius: 24,
 };
 
+// One line per area of work; both header builders rotate through these.
+export const TAGLINES = [
+  "SaaS products — interface, API, payments and deploy, shipped end to end.",
+  "AI agents and automation pipelines that run all the way to production.",
+  "ESP32 firmware, plus the web panel and Android app that drive it.",
+  "3D, games and video generated entirely from code.",
+];
+
 export const FONT_STACK =
   "Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif";
 

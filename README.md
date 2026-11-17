@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="elydev — full-stack developer" />
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/header.svg" />
+  <img src="./assets/header.webp" width="100%" alt="elydev — full-stack developer" />
+</picture>
 
 <br/>
 

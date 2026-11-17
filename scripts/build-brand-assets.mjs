@@ -6,7 +6,7 @@
 // Usage: node scripts/build-brand-assets.mjs
 
 import { writeFile, mkdir, stat } from "node:fs/promises";
-import { BRAND, FONT_STACK, esc } from "./brand.mjs";
+import { BRAND, FONT_STACK, TAGLINES, esc } from "./brand.mjs";
 
 // --- wordmark font -----------------------------------------------------------
 // Embedded as a data URI so the mark renders identically everywhere; SVGs served
@@ -26,12 +26,6 @@ async function michromaFace() {
 // SVG served through <img>. Everything loops except the one-time intro, and
 // prefers-reduced-motion freezes it into a clean static banner.
 
-const TAGLINES = [
-  "SaaS products — interface, API, payments and deploy, shipped end to end.",
-  "AI agents and automation pipelines that run all the way to production.",
-  "ESP32 firmware, plus the web panel and Android app that drive it.",
-  "3D, games and video generated entirely from code.",
-];
 
 function headerSvg(fontFace) {
   const w = 1000;
