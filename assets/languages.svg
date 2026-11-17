@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="272" viewBox="0 0 1000 272" role="img" aria-label="Languages by repository">
   <rect x="0.5" y="0.5" width="999" height="271" rx="24" fill="#0d0d0d" stroke="#ffffff" stroke-opacity="0.09"/>
-  <text x="44" y="46" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10.5" letter-spacing="2.4" fill="#7b7b7b">LANGUAGES BY REPOSITORY — PRIVATE INCLUDED</text>
+  <text x="44" y="46" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10.5" letter-spacing="2.4" fill="#7b7b7b">LANGUAGES BY REPOSITORY · PRIVATE INCLUDED</text>
   <text x="956" y="46" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10.5" fill="#7b7b7b" text-anchor="end">81 OF 85 REPOSITORIES CLASSIFIED</text>
   <line x1="44" y1="64" x2="956" y2="64" stroke="#ffffff" stroke-opacity="0.07"/>
   <rect x="44.0" y="86" width="425.9" height="12" rx="6" fill="#a447ff"/>
