@@ -72,24 +72,24 @@ Most of these are private repositories — client work and products in flight. I
 | **Flowebooks** `private` | Next.js · TypeScript · Supabase · Stripe | SaaS that turns a one-sentence idea into a finished, formatted ebook — editor, generation pipeline, checkout and delivery. Built entirely by agents through **harness-flowera**. |
 | **Flowera Study** `private` | React 19 · PDFium (WASM) · Web Workers · IndexedDB/OPFS · Neon | PDF reader where what you highlight becomes knowledge: highlights turn into blocks linked back to the exact spot in the PDF, then into flashcards scheduled by spaced repetition (FSRS). Rendering, selection and search run on PDFium in a worker. |
 | **Flowera 3D** + **Flowera LAB** `private` | Next.js 16 · Three.js · manifold-3d (WASM) · Neon · MCP | Parametric 3D models customised in the browser: the mesh rebuilds in under 250 ms per slider move and exports as manifold-validated STL/3MF. Flowera LAB drives a Bambu Lab A1 printer from an agent over MCP (41 tools) — from slider to printed part. |
+| **harness-flowera** `private` | Node.js · Claude Code · hooks | Harness that lets a team of coding agents ship a full application with no human-written code and no human in the loop: five roles, a verification gate inside the loop, enforcement by hooks. Proven by building Flowebooks end to end. |
 
 ### Education platforms
 
 | project | stack | what it is |
 |---|---|---|
-| **Golden Jus** `private` | React 19 · Supabase (triggers + RPC) · Astro · Python | Legal-exam prep suite. Its study platform, **Código Golden**, schedules every review on a D0→D45 spaced-repetition cycle and re-plans itself when the student falls behind — question lists, flashcards, error notebook, gamification, mentor–student scheduling, an AI mentor over MCP, Hubla payments and D4Sign contracts. Plus the marketing site and automated NFS-e invoicing. |
-| **Golden Materiais** + question bank `private` | Python · ReportLab · Node.js · PostgreSQL | The production system behind every Golden PDF: editable source per chapter, official sources (statutes, court bulletins, past exams) checked citation by citation, the layout engine and production state. Plus the migration of the full question bank into normalised Postgres tables, and an archive of **114 past exams with 12,872 questions** extracted and structured. |
-| **Pro Residência** `private` | React · TypeScript · Supabase (36 tables, RLS) · TanStack Query | Mentorship platform for medical residency exams: personalised schedules, spaced-repetition reviews, question bank, flashcards, full past exams and an analytics dashboard. |
-| **flowera-doc-builder** `private` | Python · ReportLab | PDF engine for printed teaching material with *verifiable* fidelity: six measured document families and a token-by-token comparator. |
+| [**Golden Jus**](https://goldenjus.vercel.app) `private` | React 19 · Supabase (triggers + RPC) · Astro · Python | Legal-exam prep suite. Its study platform, **Código Golden**, schedules every review on a D0→D45 spaced-repetition cycle and re-plans itself when the student falls behind — question lists, flashcards, error notebook, gamification, mentor–student scheduling, an AI mentor over MCP, Hubla payments and D4Sign contracts. Plus the marketing site and automated NFS-e invoicing. |
+| [**Pro Residência**](https://pro-residencia.vercel.app) `private` | React · TypeScript · Supabase (36 tables, RLS) · TanStack Query | Mentorship platform for medical residency exams: personalised schedules, spaced-repetition reviews, question bank, flashcards, full past exams and an analytics dashboard. |
 
 ### AI, agents and developer tools
 
 | project | stack | what it is |
 |---|---|---|
-| **harness-flowera** `private` | Node.js · Claude Code · hooks | Harness that lets a team of coding agents ship a full application with no human-written code and no human in the loop: five roles, a verification gate inside the loop, enforcement by hooks. Proven by building Flowebooks end to end. |
 | **Flowera UI** `private` | React · Astro · Tailwind · shadcn registry · Turborepo | Component library distributed as a shadcn-compatible registry — 600 component variants, 77 animated components and ready-made blocks for React and Astro. `npx shadcn add @flowera/<item>` copies the source into your project: no package, no lock-in. |
 | **flowera-blog** `private` | Astro SSR · PostgreSQL · Better Auth · Node 24 | Multi-tenant blog builder with a theme editor, plus a six-stage article pipeline — topic, writing, SEO/GEO, citation check against an official statute corpus — that fails CI when a citation can't be verified. |
 | **Flowera OCR** `private` | Python · Chrome Screen AI | Local OCR built on the engine shipped inside Chrome — library, CLI and HTTP API, producing searchable PDFs. No cloud, no per-page cost. |
+| **Golden Materiais** + question bank `private` | Python · ReportLab · Node.js · PostgreSQL | The production system behind every Golden PDF: editable source per chapter, official sources (statutes, court bulletins, past exams) checked citation by citation, the layout engine and production state. Plus the migration of the full question bank into normalised Postgres tables, and an archive of **114 past exams with 12,872 questions** extracted and structured. |
+| **flowera-doc-builder** `private` | Python · ReportLab | PDF engine for printed teaching material with *verifiable* fidelity: six measured document families and a token-by-token comparator. |
 
 ### Hardware
 
@@ -102,7 +102,7 @@ Most of these are private repositories — client work and products in flight. I
 
 | project | stack | what it is |
 |---|---|---|
-| **Último de Pé** `private` | Three.js · matter.js · Node.js · Python · Supabase · Meta Graph API | Fully automated content system for a 3D demolition series on Instagram — no human between the idea and the post. Bots pick each battle, simulate the cars in a 3D physics arena, render the match headless on a GPU queue, add a generated announcer, captions and HUD, and publish it. Once it is live, more bots answer comments and DMs and run the tournaments on Supabase. |
+| [**Último de Pé**](https://www.instagram.com/ultimodepe.br/) `private` | Three.js · matter.js · Node.js · Python · Supabase · Meta Graph API | Fully automated content system for a 3D demolition series on Instagram — no human between the idea and the post. Bots pick each battle, simulate the cars in a 3D physics arena, render the match headless on a GPU queue, add a generated announcer, captions and HUD, and publish it. Once it is live, more bots answer comments and DMs and run the tournaments on Supabase. |
 | **Guitar Clash** `private` | React · Three.js (R3F) · Supabase · PeerJS | Rhythm game in the browser: 3D highway, five-fret engine with HOPOs, taps, sustains and star power, a community chart catalogue, cloud progression, ranking and P2P multiplayer. |
 | **guitar3d-engine** `private` | Three.js · alphaTab · mediabunny | Web engine that renders Guitar Pro tablature as 3D guitar playthrough videos, exported as MP4 straight from the browser. |
 | **flowera-motion-graphics** `private` | JavaScript · GPU pipeline · FFmpeg | Motion-graphics and creative pipeline — video, audio and automated QA, driven entirely from code. |
