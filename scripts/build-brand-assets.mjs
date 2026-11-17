@@ -79,7 +79,7 @@ ${rings
 
   const taglines = TAGLINES.map(
     (t, i) =>
-      `<text class="tag t${i}" style="animation-delay:${0.6 + i * 4}s" x="84" y="246" font-family="${FONT_STACK}" font-size="15" fill="${BRAND.onDarkMuted}">${esc(t)}</text>`
+      `<text class="tag t${i}" style="animation-delay:${0.6 + i * 4}s" x="84" y="250" font-family="${FONT_STACK}" font-size="15" fill="${BRAND.onDarkMuted}">${esc(t)}</text>`
   ).join("\n    ");
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="elydev — full-stack developer">
@@ -159,7 +159,7 @@ ${rings
       <text x="64" y="172" font-family="Michroma,${FONT_STACK}" font-size="15.5" letter-spacing="6.5" fill="${BRAND.onDark}" opacity="0.82">FULL-STACK DEVELOPER</text>
     </g>
     <g class="rise3">
-      <path d="M66 241 l7 -5 l-7 -5" fill="none" stroke="${BRAND.violetBright}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M67 240 l5.5 4.5 l-5.5 4.5" fill="none" stroke="${BRAND.violetBright}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
     ${taglines}
   </g>

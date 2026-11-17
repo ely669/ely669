@@ -74,7 +74,7 @@ function baseLayer(fontFace) {
   <text x="84" y="70.5" font-family="${FONT_STACK}" font-size="11.5" letter-spacing="2.4" fill="${BRAND.onDark}" opacity="0.8">AVAILABLE FOR PROJECTS</text>
   <text x="64" y="138" font-family="Michroma,${FONT_STACK}" font-size="68" letter-spacing="2" fill="${BRAND.onDark}">ELYDEV</text>
   <text x="64" y="172" font-family="Michroma,${FONT_STACK}" font-size="15.5" letter-spacing="6.5" fill="${BRAND.onDark}" opacity="0.85">FULL-STACK DEVELOPER</text>
-  <path d="M66 241 l7 -5 l-7 -5" fill="none" stroke="${BRAND.violetBright}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M67 240 l5.5 4.5 l-5.5 4.5" fill="none" stroke="${BRAND.violetBright}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
   <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="${BRAND.radius}" fill="none" stroke="${BRAND.onDark}" stroke-opacity="0.1"/>`,
     `<style>${fontFace}</style>
     <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
@@ -87,7 +87,7 @@ function baseLayer(fontFace) {
 
 const taglineLayer = (text) =>
   svg(
-    `  <text x="84" y="246" font-family="${FONT_STACK}" font-size="15" fill="${BRAND.onDark}" opacity="0.72">${esc(text)}</text>`
+    `  <text x="84" y="250" font-family="${FONT_STACK}" font-size="15" fill="${BRAND.onDark}" opacity="0.72">${esc(text)}</text>`
   );
 
 // Grayscale mask for ffmpeg's alphamerge: white inside the rounded panel.

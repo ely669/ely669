@@ -97,12 +97,12 @@
       <text x="64" y="172" font-family="Michroma,Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="15.5" letter-spacing="6.5" fill="#ffffff" opacity="0.82">FULL-STACK DEVELOPER</text>
     </g>
     <g class="rise3">
-      <path d="M66 241 l7 -5 l-7 -5" fill="none" stroke="#a447ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M67 240 l5.5 4.5 l-5.5 4.5" fill="none" stroke="#a447ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
-    <text class="tag t0" style="animation-delay:0.6s" x="84" y="246" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="15" fill="#ffffff99">SaaS products — interface, API, payments and deploy, shipped end to end.</text>
-    <text class="tag t1" style="animation-delay:4.6s" x="84" y="246" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="15" fill="#ffffff99">AI agents and automation pipelines that run all the way to production.</text>
-    <text class="tag t2" style="animation-delay:8.6s" x="84" y="246" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="15" fill="#ffffff99">ESP32 firmware, plus the web panel and Android app that drive it.</text>
-    <text class="tag t3" style="animation-delay:12.6s" x="84" y="246" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="15" fill="#ffffff99">3D, games and video generated entirely from code.</text>
+    <text class="tag t0" style="animation-delay:0.6s" x="84" y="250" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="15" fill="#ffffff99">SaaS products — interface, API, payments and deploy, shipped end to end.</text>
+    <text class="tag t1" style="animation-delay:4.6s" x="84" y="250" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="15" fill="#ffffff99">AI agents and automation pipelines that run all the way to production.</text>
+    <text class="tag t2" style="animation-delay:8.6s" x="84" y="250" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="15" fill="#ffffff99">ESP32 firmware, plus the web panel and Android app that drive it.</text>
+    <text class="tag t3" style="animation-delay:12.6s" x="84" y="250" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="15" fill="#ffffff99">3D, games and video generated entirely from code.</text>
   </g>
   <rect x="0.5" y="0.5" width="999" height="289" rx="24" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
 </svg>
