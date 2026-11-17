@@ -100,7 +100,7 @@ Most of these are private repositories — client work and products in flight. I
 
 | project | stack | what it is |
 |---|---|---|
-| **Último de Pé** `private` | Three.js · matter.js · Node.js · Supabase · Meta API | 3D demolition arena built for Instagram: cars fight in a physics arena, rendered headless on a GPU queue, called by a generated announcer and published automatically — tournaments in Supabase, comments and DMs answered by a bot. |
+| **Último de Pé** `private` | Three.js · matter.js · Node.js · Python · Supabase · Meta Graph API | Fully automated content system for a 3D demolition series on Instagram — no human between the idea and the post. Bots pick each battle, simulate the cars in a 3D physics arena, render the match headless on a GPU queue, add a generated announcer, captions and HUD, and publish it. Once it is live, more bots answer comments and DMs and run the tournaments on Supabase. |
 | **Guitar Clash** `private` | React · Three.js (R3F) · Supabase · PeerJS | Rhythm game in the browser: 3D highway, five-fret engine with HOPOs, taps, sustains and star power, a community chart catalogue, cloud progression, ranking and P2P multiplayer. |
 | **guitar3d-engine** `private` | Three.js · alphaTab · mediabunny | Web engine that renders Guitar Pro tablature as 3D guitar playthrough videos, exported as MP4 straight from the browser. |
 | **flowera-motion-graphics** `private` | JavaScript · GPU pipeline · FFmpeg | Motion-graphics and creative pipeline — video, audio and automated QA, driven entirely from code. |
