@@ -66,46 +66,51 @@ Most of these are private repositories — client work and products in flight. I
 
 ### Products
 
-| project | stack | what it is |
-|---|---|---|
-| **PostsUp** `private` | Next.js 16 · Supabase · Vercel Workflow · Meta Graph API · Remotion | AI agent that creates social content through chat — carousels, posts and video from scratch — with a canvas/reels editor and scheduled publishing to Instagram, Facebook and Threads. |
-| **Flowebooks** `private` | Next.js · TypeScript · Supabase · Stripe | SaaS that turns a one-sentence idea into a finished, formatted ebook — editor, generation pipeline, checkout and delivery. Built entirely by agents through **harness-flowera**. |
-| **Flowera Study** `private` | React 19 · PDFium (WASM) · Web Workers · IndexedDB/OPFS · Neon | PDF reader where what you highlight becomes knowledge: highlights turn into blocks linked back to the exact spot in the PDF, then into flashcards scheduled by spaced repetition (FSRS). Rendering, selection and search run on PDFium in a worker. |
-| **Flowera 3D** + **Flowera LAB** `private` | Next.js 16 · Three.js · manifold-3d (WASM) · Neon · MCP | Parametric 3D models customised in the browser: the mesh rebuilds in under 250 ms per slider move and exports as manifold-validated STL/3MF. Flowera LAB drives a Bambu Lab A1 printer from an agent over MCP (41 tools) — from slider to printed part. |
-| **harness-flowera** `private` | Node.js · Claude Code · hooks | Harness that lets a team of coding agents ship a full application with no human-written code and no human in the loop: five roles, a verification gate inside the loop, enforcement by hooks. Proven by building Flowebooks end to end. |
+<table>
+  <tr><th width="17%">project</th><th width="26%">stack</th><th width="57%">what it is</th></tr>
+  <tr><td><b>PostsUp</b> <code>private</code></td><td>Next.js 16 · Supabase · Vercel Workflow · Meta Graph API · Remotion</td><td>AI agent that creates social content through chat — carousels, posts and video from scratch — with a canvas/reels editor and scheduled publishing to Instagram, Facebook and Threads.</td></tr>
+  <tr><td><b>Flowebooks</b> <code>private</code></td><td>Next.js · TypeScript · Supabase · Stripe</td><td>SaaS that turns a one-sentence idea into a finished, formatted ebook — editor, generation pipeline, checkout and delivery. Built entirely by agents through <b>harness-flowera</b>.</td></tr>
+  <tr><td><b>Flowera Study</b> <code>private</code></td><td>React 19 · PDFium (WASM) · Web Workers · IndexedDB/OPFS · Neon</td><td>PDF reader where what you highlight becomes knowledge: highlights turn into blocks linked back to the exact spot in the PDF, then into flashcards scheduled by spaced repetition (FSRS). Rendering, selection and search run on PDFium in a worker.</td></tr>
+  <tr><td><b>Flowera 3D</b> + <b>Flowera LAB</b> <code>private</code></td><td>Next.js 16 · Three.js · manifold-3d (WASM) · Neon · MCP</td><td>Parametric 3D models customised in the browser: the mesh rebuilds in under 250 ms per slider move and exports as manifold-validated STL/3MF. Flowera LAB drives a Bambu Lab A1 printer from an agent over MCP (41 tools) — from slider to printed part.</td></tr>
+  <tr><td><b>harness-flowera</b> <code>private</code></td><td>Node.js · Claude Code · hooks</td><td>Harness that lets a team of coding agents ship a full application with no human-written code and no human in the loop: five roles, a verification gate inside the loop, enforcement by hooks. Proven by building Flowebooks end to end.</td></tr>
+</table>
 
 ### Education platforms
 
-| project | stack | what it is |
-|---|---|---|
-| [**Golden Jus**](https://goldenjus.vercel.app) `private` | React 19 · Supabase (triggers + RPC) · Astro · Python | Legal-exam prep suite. Its study platform, **Código Golden**, schedules every review on a D0→D45 spaced-repetition cycle and re-plans itself when the student falls behind — question lists, flashcards, error notebook, gamification, mentor–student scheduling, an AI mentor over MCP, Hubla payments and D4Sign contracts. Plus the marketing site and automated NFS-e invoicing. |
-| [**Pro Residência**](https://pro-residencia.vercel.app) `private` | React · TypeScript · Supabase (36 tables, RLS) · TanStack Query | Mentorship platform for medical residency exams: personalised schedules, spaced-repetition reviews, question bank, flashcards, full past exams and an analytics dashboard. |
+<table>
+  <tr><th width="17%">project</th><th width="26%">stack</th><th width="57%">what it is</th></tr>
+  <tr><td><a href="https://goldenjus.vercel.app"><b>Golden Jus</b></a> <code>private</code></td><td>React 19 · Supabase (triggers + RPC) · Astro · Python</td><td>Legal-exam prep suite. Its study platform, <b>Código Golden</b>, schedules every review on a D0→D45 spaced-repetition cycle and re-plans itself when the student falls behind — question lists, flashcards, error notebook, gamification, mentor–student scheduling, an AI mentor over MCP, Hubla payments and D4Sign contracts. Plus the marketing site and automated NFS-e invoicing.</td></tr>
+  <tr><td><a href="https://pro-residencia.vercel.app"><b>Pro Residência</b></a> <code>private</code></td><td>React · TypeScript · Supabase (36 tables, RLS) · TanStack Query</td><td>Mentorship platform for medical residency exams: personalised schedules, spaced-repetition reviews, question bank, flashcards, full past exams and an analytics dashboard.</td></tr>
+</table>
 
 ### AI, agents and developer tools
 
-| project | stack | what it is |
-|---|---|---|
-| **Flowera UI** `private` | React · Astro · Tailwind · shadcn registry · Turborepo | Component library distributed as a shadcn-compatible registry — 600 component variants, 77 animated components and ready-made blocks for React and Astro. `npx shadcn add @flowera/<item>` copies the source into your project: no package, no lock-in. |
-| **flowera-blog** `private` | Astro SSR · PostgreSQL · Better Auth · Node 24 | Multi-tenant blog builder with a theme editor, plus a six-stage article pipeline — topic, writing, SEO/GEO, citation check against an official statute corpus — that fails CI when a citation can't be verified. |
-| **Flowera OCR** `private` | Python · Chrome Screen AI | Local OCR built on the engine shipped inside Chrome — library, CLI and HTTP API, producing searchable PDFs. No cloud, no per-page cost. |
-| **Golden Materiais** + question bank `private` | Python · ReportLab · Node.js · PostgreSQL | The production system behind every Golden PDF: editable source per chapter, official sources (statutes, court bulletins, past exams) checked citation by citation, the layout engine and production state. Plus the migration of the full question bank into normalised Postgres tables, and an archive of **114 past exams with 12,872 questions** extracted and structured. |
-| **flowera-doc-builder** `private` | Python · ReportLab | PDF engine for printed teaching material with *verifiable* fidelity: six measured document families and a token-by-token comparator. |
+<table>
+  <tr><th width="17%">project</th><th width="26%">stack</th><th width="57%">what it is</th></tr>
+  <tr><td><b>Flowera UI</b> <code>private</code></td><td>React · Astro · Tailwind · shadcn registry · Turborepo</td><td>Component library distributed as a shadcn-compatible registry — 600 component variants, 77 animated components and ready-made blocks for React and Astro. <code>npx shadcn add @flowera/&lt;item&gt;</code> copies the source into your project: no package, no lock-in.</td></tr>
+  <tr><td><b>flowera-blog</b> <code>private</code></td><td>Astro SSR · PostgreSQL · Better Auth · Node 24</td><td>Multi-tenant blog builder with a theme editor, plus a six-stage article pipeline — topic, writing, SEO/GEO, citation check against an official statute corpus — that fails CI when a citation can't be verified.</td></tr>
+  <tr><td><b>Flowera OCR</b> <code>private</code></td><td>Python · Chrome Screen AI</td><td>Local OCR built on the engine shipped inside Chrome — library, CLI and HTTP API, producing searchable PDFs. No cloud, no per-page cost.</td></tr>
+  <tr><td><b>Golden Materiais</b> + question bank <code>private</code></td><td>Python · ReportLab · Node.js · PostgreSQL</td><td>The production system behind every Golden PDF: editable source per chapter, official sources (statutes, court bulletins, past exams) checked citation by citation, the layout engine and production state. Plus the migration of the full question bank into normalised Postgres tables, and an archive of <b>114 past exams with 12,872 questions</b> extracted and structured.</td></tr>
+  <tr><td><b>flowera-doc-builder</b> <code>private</code></td><td>Python · ReportLab</td><td>PDF engine for printed teaching material with <i>verifiable</i> fidelity: six measured document families and a token-by-token comparator.</td></tr>
+</table>
 
 ### Hardware
 
-| project | stack | what it is |
-|---|---|---|
-| **CLAUDE-CYD-AI-CHAT** `private` | C · ESP32 · TFT/LVGL · OAuth | AI chat running on a low-cost ESP32 touch display: OAuth sign-in, pt-BR interface, hardware tools, HTTP API. |
-| **Desk Companion** `private` | C++ · ESP32-C3 · REST · Android | Open firmware for an OLED desk companion, with a web panel, REST API and companion Android app. |
+<table>
+  <tr><th width="17%">project</th><th width="26%">stack</th><th width="57%">what it is</th></tr>
+  <tr><td><b>CLAUDE-CYD-AI-CHAT</b> <code>private</code></td><td>C · ESP32 · TFT/LVGL · OAuth</td><td>AI chat running on a low-cost ESP32 touch display: OAuth sign-in, pt-BR interface, hardware tools, HTTP API.</td></tr>
+  <tr><td><b>Desk Companion</b> <code>private</code></td><td>C++ · ESP32-C3 · REST · Android</td><td>Open firmware for an OLED desk companion, with a web panel, REST API and companion Android app.</td></tr>
+</table>
 
 ### Graphics, games and video
 
-| project | stack | what it is |
-|---|---|---|
-| [**Último de Pé**](https://www.instagram.com/ultimodepe.br/) `private` | Three.js · matter.js · Node.js · Python · Supabase · Meta Graph API | Fully automated content system for a 3D demolition series on Instagram — no human between the idea and the post. Bots pick each battle, simulate the cars in a 3D physics arena, render the match headless on a GPU queue, add a generated announcer, captions and HUD, and publish it. Once it is live, more bots answer comments and DMs and run the tournaments on Supabase. |
-| **Guitar Clash** `private` | React · Three.js (R3F) · Supabase · PeerJS | Rhythm game in the browser: 3D highway, five-fret engine with HOPOs, taps, sustains and star power, a community chart catalogue, cloud progression, ranking and P2P multiplayer. |
-| **guitar3d-engine** `private` | Three.js · alphaTab · mediabunny | Web engine that renders Guitar Pro tablature as 3D guitar playthrough videos, exported as MP4 straight from the browser. |
-| **flowera-motion-graphics** `private` | JavaScript · GPU pipeline · FFmpeg | Motion-graphics and creative pipeline — video, audio and automated QA, driven entirely from code. |
+<table>
+  <tr><th width="17%">project</th><th width="26%">stack</th><th width="57%">what it is</th></tr>
+  <tr><td><a href="https://www.instagram.com/ultimodepe.br/"><b>Último de Pé</b></a> <code>private</code></td><td>Three.js · matter.js · Node.js · Python · Supabase · Meta Graph API</td><td>Fully automated content system for a 3D demolition series on Instagram — no human between the idea and the post. Bots pick each battle, simulate the cars in a 3D physics arena, render the match headless on a GPU queue, add a generated announcer, captions and HUD, and publish it. Once it is live, more bots answer comments and DMs and run the tournaments on Supabase.</td></tr>
+  <tr><td><b>Guitar Clash</b> <code>private</code></td><td>React · Three.js (R3F) · Supabase · PeerJS</td><td>Rhythm game in the browser: 3D highway, five-fret engine with HOPOs, taps, sustains and star power, a community chart catalogue, cloud progression, ranking and P2P multiplayer.</td></tr>
+  <tr><td><b>guitar3d-engine</b> <code>private</code></td><td>Three.js · alphaTab · mediabunny</td><td>Web engine that renders Guitar Pro tablature as 3D guitar playthrough videos, exported as MP4 straight from the browser.</td></tr>
+  <tr><td><b>flowera-motion-graphics</b> <code>private</code></td><td>JavaScript · GPU pipeline · FFmpeg</td><td>Motion-graphics and creative pipeline — video, audio and automated QA, driven entirely from code.</td></tr>
+</table>
 
 ---
 
