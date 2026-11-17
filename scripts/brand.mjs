@@ -18,10 +18,10 @@ export const BRAND = {
 
 // One line per area of work; both header builders rotate through these.
 export const TAGLINES = [
-  "SaaS products — interface, API, payments and deploy, shipped end to end.",
-  "AI agents and automation pipelines that run all the way to production.",
-  "ESP32 firmware, plus the web panel and Android app that drive it.",
-  "3D, games and video generated entirely from code.",
+  "SaaS products, from the first screen to payments and deploy.",
+  "AI agents and automations that run in production.",
+  "ESP32 firmware, plus the web panel and Android app around it.",
+  "3D, games and video generated from code.",
 ];
 
 export const FONT_STACK =

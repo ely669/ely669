@@ -82,7 +82,7 @@ ${rings
       `<text class="tag t${i}" style="animation-delay:${0.6 + i * 4}s" x="84" y="250" font-family="${FONT_STACK}" font-size="15" fill="${BRAND.onDarkMuted}">${esc(t)}</text>`
   ).join("\n    ");
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="elydev — full-stack developer">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="elydev, full-stack developer">
   <defs>
     <style>${fontFace}
       .lobe{transform-box:fill-box;transform-origin:center}

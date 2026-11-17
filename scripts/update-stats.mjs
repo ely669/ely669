@@ -167,7 +167,7 @@ function statsSvg(s) {
   const padX = 44;
   const colW = (width - padX * 2) / 3;
   const inner = [
-    sectionLabel(padX, 46, "ACTIVITY — PUBLIC AND PRIVATE WORK"),
+    sectionLabel(padX, 46, "ACTIVITY · PUBLIC AND PRIVATE WORK"),
     `  <text x="${width - padX}" y="46" font-family="${FONT_STACK}" font-size="10.5" fill="${BRAND.gray}" text-anchor="end">${s.years} YEARS ON GITHUB · UPDATED ${new Date().toISOString().slice(0, 10)}</text>`,
     `  <line x1="${padX}" y1="64" x2="${width - padX}" y2="64" stroke="${BRAND.onDark}" stroke-opacity="0.07"/>`,
   ];
@@ -248,7 +248,7 @@ function contributionsSvg(days, totalLastYear) {
     .join("\n");
 
   const inner = [
-    sectionLabel(padX, 46, "CONTRIBUTIONS — LAST 12 MONTHS"),
+    sectionLabel(padX, 46, "CONTRIBUTIONS · LAST 12 MONTHS"),
     `  <text x="${width - padX}" y="46" font-family="${FONT_STACK}" font-size="10.5" fill="${BRAND.gray}" text-anchor="end">${fmt(totalLastYear)} IN THE LAST YEAR</text>`,
     `  <line x1="${padX}" y1="64" x2="${width - padX}" y2="64" stroke="${BRAND.onDark}" stroke-opacity="0.07"/>`,
     ...monthLabels,
@@ -305,7 +305,7 @@ function languagesSvg(languages, repoCount) {
 
   const height = 134 + perRow * 24 + 18;
   const inner = [
-    sectionLabel(padX, 46, "LANGUAGES BY REPOSITORY — PRIVATE INCLUDED"),
+    sectionLabel(padX, 46, "LANGUAGES BY REPOSITORY · PRIVATE INCLUDED"),
     `  <text x="${width - padX}" y="46" font-family="${FONT_STACK}" font-size="10.5" fill="${BRAND.gray}" text-anchor="end">${total} OF ${repoCount} REPOSITORIES CLASSIFIED</text>`,
     `  <line x1="${padX}" y1="64" x2="${width - padX}" y2="64" stroke="${BRAND.onDark}" stroke-opacity="0.07"/>`,
     bar,
@@ -375,7 +375,7 @@ const readmeFacts = [
     /alt="[\d,]+ contributions · [\d,]+ commits · [\d,]+ repositories"/,
     `alt="${fmt(stats.contributions)} contributions · ${fmt(stats.commits)} commits · ${fmt(stats.repos)} repositories"`,
   ],
-  [/(?<=\*\*Why these cards are custom\.\*\* )\d+%/, `${stats.privateShare}%`],
+  [/\d+%(?= of my repositories are private)/, `${stats.privateShare}%`],
 ];
 let readme = await readFile("README.md", "utf8");
 for (const [pattern, replacement] of readmeFacts) {

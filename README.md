@@ -2,13 +2,13 @@
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/header.svg" />
-  <img src="./assets/header.webp" width="100%" alt="elydev — full-stack developer" />
+  <img src="./assets/header.webp" width="100%" alt="elydev, full-stack developer" />
 </picture>
 
 <br/>
 
 <a href="https://github.com/ely669">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&pause=1300&color=A447FF&center=true&vCenter=true&width=780&lines=TypeScript+%C2%B7+React+%C2%B7+Next.js+%C2%B7+Astro+%C2%B7+Node.js;Python+%C2%B7+PostgreSQL+%C2%B7+Supabase+%C2%B7+Stripe+%C2%B7+Docker;C%2FC%2B%2B+on+ESP32+%E2%80%94+firmware%2C+REST+APIs%2C+OTA+updates;4%2C425+commits+across+85+repositories" alt="stack" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&pause=1300&color=A447FF&center=true&vCenter=true&width=780&lines=TypeScript+%C2%B7+React+%C2%B7+Next.js+%C2%B7+Astro+%C2%B7+Node.js;Python+%C2%B7+PostgreSQL+%C2%B7+Supabase+%C2%B7+Stripe+%C2%B7+Docker;C%2FC%2B%2B+firmware+for+ESP32+boards;4%2C425+commits+across+85+repositories" alt="stack" />
 </a>
 
 <br/>
@@ -23,14 +23,18 @@
 
 ## About
 
-Senior full-stack developer. I take products from an empty repository to production — interface, API, database, payments and deploy — and when the product has hardware in it, the firmware too.
+I'm Ely, a full-stack developer based in Goiás, Brazil. I build web products from the first commit to production: the interface, the API, the database, payments and deploy. When a product involves hardware, I write the firmware too.
 
-- **Web platforms.** SaaS products, dashboards and marketing sites in **TypeScript**, **React**, **Next.js** and **Astro**, styled with **Tailwind**, deployed on **Vercel**.
-- **Backend and data.** REST APIs in **Node.js** and **Python**, schemas on **PostgreSQL** / **Supabase**, **Stripe** billing, and document and invoicing pipelines (Brazilian NFS-e) automated end to end.
-- **Embedded.** Firmware in **C / C++** for **ESP32** and **ESP32-C3** — touch UI, Wi-Fi provisioning, REST API, OTA — with the web panel and Android app that drive it.
-- **Graphics and 3D.** **Three.js** in the browser, **Godot** for games, GPU video pipelines for motion graphics.
+Most of my work today is for education companies and for my own products under Flowera. A growing part of it is AI: agents that write code, create content and publish it with nobody in the loop.
 
-Currently taking **freelance and project work**, remote. Fixed scope or ongoing.
+What I work with:
+
+- **Web:** TypeScript, React, Next.js and Astro, styled with Tailwind and deployed on Vercel.
+- **Backend:** APIs in Node.js and Python, PostgreSQL and Supabase, Stripe billing and automated Brazilian invoicing (NFS-e).
+- **Embedded:** C and C++ firmware for ESP32 boards, including touch interfaces, Wi-Fi setup, a REST API and over-the-air updates.
+- **Graphics:** Three.js in the browser, Godot for games and video pipelines that render on the GPU.
+
+I'm open to freelance and project work, remote, with a fixed scope or ongoing.
 
 ---
 
@@ -56,71 +60,71 @@ Currently taking **freelance and project work**, remote. Fixed scope or ongoing.
 
 </div>
 
-> **Why these cards are custom.** 93% of these repositories are private client work, so the usual stat widgets — which only read public repos — report close to zero for this account. These are generated from the authenticated GitHub API by [`scripts/update-stats.mjs`](scripts/update-stats.mjs) and refreshed daily by [a GitHub Actions workflow](.github/workflows/update-stats.yml). The commit count is measured per repository, not estimated.
+> **About these cards:** 93% of my repositories are private, so the usual stat widgets, which only read public repos, show almost nothing for this account. These cards come from the authenticated GitHub API through [`scripts/update-stats.mjs`](scripts/update-stats.mjs), and [a GitHub Actions workflow](.github/workflows/update-stats.yml) updates them every day. Commits are counted repo by repo.
 
 ---
 
 ## Selected work
 
-Most of these are private repositories — client work and products in flight. I walk through architecture and code on request.
+Most of these repositories are private because they belong to clients or to products still in development. I'm happy to walk through the architecture and the code on a call.
 
 ### Products
 
 <table>
   <tr><th width="17%">project</th><th width="26%">stack</th><th width="57%">what it is</th></tr>
-  <tr><td><b>PostsUp</b> <code>private</code></td><td>Next.js 16 · Supabase · Vercel Workflow · Meta Graph API · Remotion</td><td>AI agent that creates social content through chat — carousels, posts and video from scratch — with a canvas/reels editor and scheduled publishing to Instagram, Facebook and Threads.</td></tr>
-  <tr><td><b>Flowebooks</b> <code>private</code></td><td>Next.js · TypeScript · Supabase · Stripe</td><td>SaaS that turns a one-sentence idea into a finished, formatted ebook — editor, generation pipeline, checkout and delivery. Built entirely by agents through <b>harness-flowera</b>.</td></tr>
-  <tr><td><b>Flowera Study</b> <code>private</code></td><td>React 19 · PDFium (WASM) · Web Workers · IndexedDB/OPFS · Neon</td><td>PDF reader where what you highlight becomes knowledge: highlights turn into blocks linked back to the exact spot in the PDF, then into flashcards scheduled by spaced repetition (FSRS). Rendering, selection and search run on PDFium in a worker.</td></tr>
-  <tr><td><b>Flowera 3D</b> + <b>Flowera LAB</b> <code>private</code></td><td>Next.js 16 · Three.js · manifold-3d (WASM) · Neon · MCP</td><td>Parametric 3D models customised in the browser: the mesh rebuilds in under 250 ms per slider move and exports as manifold-validated STL/3MF. Flowera LAB drives a Bambu Lab A1 printer from an agent over MCP (41 tools) — from slider to printed part.</td></tr>
-  <tr><td><b>harness-flowera</b> <code>private</code></td><td>Node.js · Claude Code · hooks</td><td>Harness that lets a team of coding agents ship a full application with no human-written code and no human in the loop: five roles, a verification gate inside the loop, enforcement by hooks. Proven by building Flowebooks end to end.</td></tr>
+  <tr><td><b>PostsUp</b> <code>private</code></td><td>Next.js 16 · Supabase · Vercel Workflow · Meta Graph API · Remotion</td><td>An AI agent that creates social media content through chat: carousels, posts and videos made from scratch. It has a canvas and reels editor and schedules posts to Instagram, Facebook and Threads.</td></tr>
+  <tr><td><b>Flowebooks</b> <code>private</code></td><td>Next.js · TypeScript · Supabase · Stripe</td><td>Turns a one-sentence idea into a finished, formatted ebook, with the editor, the generation pipeline, checkout and delivery. Every line of code was written by agents running on <b>harness-flowera</b>.</td></tr>
+  <tr><td><b>Flowera Study</b> <code>private</code></td><td>React 19 · PDFium (WASM) · Web Workers · IndexedDB/OPFS · Neon</td><td>A PDF reader built for studying. Each highlight becomes a note linked to its exact spot in the PDF and can turn into a flashcard with spaced repetition (FSRS). Rendering, text selection and search run on PDFium inside a web worker.</td></tr>
+  <tr><td><b>Flowera 3D</b> + <b>Flowera LAB</b> <code>private</code></td><td>Next.js 16 · Three.js · manifold-3d (WASM) · Neon · MCP</td><td>Customise parametric 3D models in the browser. The mesh updates in under 250 ms as you move a slider and exports as a print-ready STL or 3MF, checked for mesh errors first. Flowera LAB connects an agent to a Bambu Lab A1 printer over MCP (41 tools), so a model can go from the browser to the print bed.</td></tr>
+  <tr><td><b>harness-flowera</b> <code>private</code></td><td>Node.js · Claude Code · hooks</td><td>A setup that lets a team of coding agents build a complete application with no human-written code and nobody stepping in during the run. It splits the work into five roles, checks every step before moving on and enforces the rules with hooks. Flowebooks was built with it.</td></tr>
 </table>
 
 ### Education platforms
 
 <table>
   <tr><th width="17%">project</th><th width="26%">stack</th><th width="57%">what it is</th></tr>
-  <tr><td><a href="https://goldenjus.vercel.app"><b>Golden Jus</b></a> <code>private</code></td><td>React 19 · Supabase (triggers + RPC) · Astro · Python</td><td>Legal-exam prep suite. Its study platform, <b>Código Golden</b>, schedules every review on a D0→D45 spaced-repetition cycle and re-plans itself when the student falls behind — question lists, flashcards, error notebook, gamification, mentor–student scheduling, an AI mentor over MCP, Hubla payments and D4Sign contracts. Plus the marketing site and automated NFS-e invoicing.</td></tr>
-  <tr><td><a href="https://pro-residencia.vercel.app"><b>Pro Residência</b></a> <code>private</code></td><td>React · TypeScript · Supabase (36 tables, RLS) · TanStack Query</td><td>Mentorship platform for medical residency exams: personalised schedules, spaced-repetition reviews, question bank, flashcards, full past exams and an analytics dashboard.</td></tr>
+  <tr><td><a href="https://goldenjus.vercel.app"><b>Golden Jus</b></a> <code>private</code></td><td>React 19 · Supabase (triggers + RPC) · Astro · Python</td><td>Prep platform for Brazilian legal exams. Its study app, <b>Código Golden</b>, schedules reviews on a D0 to D45 spaced repetition cycle and rebuilds the plan when a student falls behind. It also has question lists, flashcards, an error notebook, gamification, mentor scheduling, an AI mentor over MCP, payments through Hubla and contracts through D4Sign. I also built the marketing site and the automated NFS-e invoicing.</td></tr>
+  <tr><td><a href="https://pro-residencia.vercel.app"><b>Pro Residência</b></a> <code>private</code></td><td>React · TypeScript · Supabase (36 tables, RLS) · TanStack Query</td><td>Mentorship platform for medical residency exams, with personalised schedules, spaced repetition reviews, a question bank, flashcards, full past exams and a dashboard to track progress.</td></tr>
 </table>
 
 ### AI, agents and developer tools
 
 <table>
   <tr><th width="17%">project</th><th width="26%">stack</th><th width="57%">what it is</th></tr>
-  <tr><td><b>Flowera UI</b> <code>private</code></td><td>React · Astro · Tailwind · shadcn registry · Turborepo</td><td>Component library distributed as a shadcn-compatible registry — 600 component variants, 77 animated components and ready-made blocks for React and Astro. <code>npx shadcn add @flowera/&lt;item&gt;</code> copies the source into your project: no package, no lock-in.</td></tr>
-  <tr><td><b>flowera-blog</b> <code>private</code></td><td>Astro SSR · PostgreSQL · Better Auth · Node 24</td><td>Multi-tenant blog builder with a theme editor, plus a six-stage article pipeline — topic, writing, SEO/GEO, citation check against an official statute corpus — that fails CI when a citation can't be verified.</td></tr>
-  <tr><td><b>Flowera OCR</b> <code>private</code></td><td>Python · Chrome Screen AI</td><td>Local OCR built on the engine shipped inside Chrome — library, CLI and HTTP API, producing searchable PDFs. No cloud, no per-page cost.</td></tr>
-  <tr><td><b>Golden Materiais</b> + question bank <code>private</code></td><td>Python · ReportLab · Node.js · PostgreSQL</td><td>The production system behind every Golden PDF: editable source per chapter, official sources (statutes, court bulletins, past exams) checked citation by citation, the layout engine and production state. Plus the migration of the full question bank into normalised Postgres tables, and an archive of <b>114 past exams with 12,872 questions</b> extracted and structured.</td></tr>
-  <tr><td><b>flowera-doc-builder</b> <code>private</code></td><td>Python · ReportLab</td><td>PDF engine for printed teaching material with <i>verifiable</i> fidelity: six measured document families and a token-by-token comparator.</td></tr>
+  <tr><td><b>Flowera UI</b> <code>private</code></td><td>React · Astro · Tailwind · shadcn registry · Turborepo</td><td>A component library shipped as a shadcn-compatible registry: 600 component variants, 77 animated components and ready-made blocks for React and Astro. Running <code>npx shadcn add @flowera/&lt;item&gt;</code> copies the source straight into your project.</td></tr>
+  <tr><td><b>flowera-blog</b> <code>private</code></td><td>Astro SSR · PostgreSQL · Better Auth · Node 24</td><td>Multi-tenant blog builder with a theme editor. Articles go through a six-step pipeline (topic, writing, SEO and GEO, then a check of every citation against the official text of the law), and the build fails if any citation can't be verified.</td></tr>
+  <tr><td><b>Flowera OCR</b> <code>private</code></td><td>Python · Chrome Screen AI</td><td>OCR that runs entirely on your machine, using the Screen AI engine that ships with Chrome. It works as a library, a CLI or an HTTP API and produces searchable PDFs, with no cloud service and no per-page cost.</td></tr>
+  <tr><td><b>Golden Materiais</b> + question bank <code>private</code></td><td>Python · ReportLab · Node.js · PostgreSQL</td><td>The system behind every PDF Golden publishes. It keeps the editable source of each chapter, the official sources (laws, court bulletins, past exams) used to check every citation, the layout engine and the production status. I also migrated the full question bank into Postgres and built an archive of <b>114 past exams with 12,872 questions</b>, extracted and organised.</td></tr>
+  <tr><td><b>flowera-doc-builder</b> <code>private</code></td><td>Python · ReportLab</td><td>PDF engine for printed study material whose output can be checked against the original. It covers six document families measured from real files and compares the result token by token.</td></tr>
 </table>
 
 ### Hardware
 
 <table>
   <tr><th width="17%">project</th><th width="26%">stack</th><th width="57%">what it is</th></tr>
-  <tr><td><b>CLAUDE-CYD-AI-CHAT</b> <code>private</code></td><td>C · ESP32 · TFT/LVGL · OAuth</td><td>AI chat running on a low-cost ESP32 touch display: OAuth sign-in, pt-BR interface, hardware tools, HTTP API.</td></tr>
-  <tr><td><b>Desk Companion</b> <code>private</code></td><td>C++ · ESP32-C3 · REST · Android</td><td>Open firmware for an OLED desk companion, with a web panel, REST API and companion Android app.</td></tr>
+  <tr><td><b>CLAUDE-CYD-AI-CHAT</b> <code>private</code></td><td>C · ESP32 · TFT/LVGL · OAuth</td><td>AI chat on a cheap ESP32 touchscreen board, with OAuth sign-in, a Portuguese interface, hardware tools and an HTTP API.</td></tr>
+  <tr><td><b>Desk Companion</b> <code>private</code></td><td>C++ · ESP32-C3 · REST · Android</td><td>Open firmware for a small OLED desk companion, with its own web panel, REST API and Android app.</td></tr>
 </table>
 
 ### Graphics, games and video
 
 <table>
   <tr><th width="17%">project</th><th width="26%">stack</th><th width="57%">what it is</th></tr>
-  <tr><td><a href="https://www.instagram.com/ultimodepe.br/"><b>Último de Pé</b></a> <code>private</code></td><td>Three.js · matter.js · Node.js · Python · Supabase · Meta Graph API</td><td>Fully automated content system for a 3D demolition series on Instagram — no human between the idea and the post. Bots pick each battle, simulate the cars in a 3D physics arena, render the match headless on a GPU queue, add a generated announcer, captions and HUD, and publish it. Once it is live, more bots answer comments and DMs and run the tournaments on Supabase.</td></tr>
-  <tr><td><b>Guitar Clash</b> <code>private</code></td><td>React · Three.js (R3F) · Supabase · PeerJS</td><td>Rhythm game in the browser: 3D highway, five-fret engine with HOPOs, taps, sustains and star power, a community chart catalogue, cloud progression, ranking and P2P multiplayer.</td></tr>
-  <tr><td><b>guitar3d-engine</b> <code>private</code></td><td>Three.js · alphaTab · mediabunny</td><td>Web engine that renders Guitar Pro tablature as 3D guitar playthrough videos, exported as MP4 straight from the browser.</td></tr>
-  <tr><td><b>flowera-motion-graphics</b> <code>private</code></td><td>JavaScript · GPU pipeline · FFmpeg</td><td>Motion-graphics and creative pipeline — video, audio and automated QA, driven entirely from code.</td></tr>
+  <tr><td><a href="https://www.instagram.com/ultimodepe.br/"><b>Último de Pé</b></a> <code>private</code></td><td>Three.js · matter.js · Node.js · Python · Supabase · Meta Graph API</td><td>A content system that runs a 3D demolition series on Instagram without anyone touching it. Bots choose each battle, simulate the cars in a 3D physics arena, render the match on a GPU queue, add an AI announcer, captions and on-screen graphics, and publish the video. Once it's live, other bots reply to comments and DMs and run the tournaments in Supabase.</td></tr>
+  <tr><td><b>Guitar Clash</b> <code>private</code></td><td>React · Three.js (R3F) · Supabase · PeerJS</td><td>A rhythm game that runs in the browser, with a 3D note highway, a five-fret engine with HOPOs, taps, sustains and star power, songs from the community chart catalogue, saved progress, rankings and peer-to-peer multiplayer.</td></tr>
+  <tr><td><b>guitar3d-engine</b> <code>private</code></td><td>Three.js · alphaTab · mediabunny</td><td>Turns a Guitar Pro tab into a video of a 3D guitar playing the song, exported as MP4 right in the browser.</td></tr>
+  <tr><td><b>flowera-motion-graphics</b> <code>private</code></td><td>JavaScript · GPU pipeline · FFmpeg</td><td>My motion graphics pipeline for video, audio and automatic quality checks, all driven from code.</td></tr>
 </table>
 
 ---
 
-## What I bring to a team
+## How I work
 
-**The whole thing ships.** Interface, API, schema, payments, deploy and the monitoring afterwards. No gaps between layers, because there is no handoff between people.
+I take care of the whole product: interface, API, database, payments, deploy and the monitoring after launch. With one person across every layer, nothing gets lost between them.
 
-**Measured, not assumed.** "Looks right" is not a result. I verify with tests, typed boundaries and comparators that show the diff — the cards above are generated and refreshed by code, not pasted screenshots.
+I check my work with tests, typed code and tools that compare the result against the reference. The cards above are a small example, since code generates and updates them every day.
 
-**Hardware when the product needs it.** Few web developers also flash the device, write its REST API and ship the app that talks to it. When a product spans both, that is one less vendor to coordinate.
+I can also handle the hardware side. If your product includes a device, I can write its firmware, its API and the app that controls it, so you don't need a separate vendor for that.
 
 ---
 
@@ -138,6 +142,6 @@ Most of these are private repositories — client work and products in flight. I
 
 <br/><br/>
 
-**Hiring or scoping a project?** Send the brief — you get scope, timeline and price back.
+**Hiring or planning a project?** Send me what you have in mind and I'll get back to you with scope, timeline and price.
 
 </div>

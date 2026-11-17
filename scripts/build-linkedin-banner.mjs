@@ -19,7 +19,7 @@ const w = 1584;
 const h = 396;
 
 // Content sits right of x=520 so the avatar and name never cover it.
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="elydev — full-stack developer">
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="elydev, full-stack developer">
   <defs>
     <style>${fontFace}</style>
     <filter id="soften" x="-30%" y="-100%" width="160%" height="300%">
