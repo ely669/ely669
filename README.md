@@ -8,7 +8,7 @@
 <br/>
 
 <a href="https://github.com/ely669">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&pause=1300&color=A447FF&center=true&vCenter=true&width=780&lines=TypeScript+%C2%B7+React+%C2%B7+Next.js+%C2%B7+Astro+%C2%B7+Node.js;Python+%C2%B7+PostgreSQL+%C2%B7+Supabase+%C2%B7+Stripe+%C2%B7+Docker;C%2FC%2B%2B+firmware+for+ESP32+boards;4%2C436+commits+across+85+repositories" alt="stack" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&pause=1300&color=A447FF&center=true&vCenter=true&width=780&lines=TypeScript+%C2%B7+React+%C2%B7+Next.js+%C2%B7+Astro+%C2%B7+Node.js;Python+%C2%B7+PostgreSQL+%C2%B7+Supabase+%C2%B7+Stripe+%C2%B7+Docker;C%2FC%2B%2B+firmware+for+ESP32+boards;4%2C482+commits+across+87+repositories" alt="stack" />
 </a>
 
 <br/>
@@ -52,7 +52,7 @@ I'm open to freelance and project work, remote, with a fixed scope or ongoing.
 
 <div align="center">
 
-<img src="./assets/stats.svg" width="100%" alt="7,190 contributions · 4,436 commits · 85 repositories" />
+<img src="./assets/stats.svg" width="100%" alt="7,238 contributions · 4,482 commits · 87 repositories" />
 
 <img src="./assets/contributions.svg" width="100%" alt="contribution calendar, last 12 months" />
 
