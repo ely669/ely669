@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-label="Contribution calendar">
   <rect x="0.5" y="0.5" width="999" height="229" rx="24" fill="#0d0d0d" stroke="#ffffff" stroke-opacity="0.09"/>
   <text x="44" y="46" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10.5" letter-spacing="2.4" fill="#7b7b7b">CONTRIBUTIONS · LAST 12 MONTHS</text>
-  <text x="956" y="46" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10.5" fill="#7b7b7b" text-anchor="end">7,659 IN THE LAST YEAR</text>
+  <text x="956" y="46" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10.5" fill="#7b7b7b" text-anchor="end">7,746 IN THE LAST YEAR</text>
   <line x1="44" y1="64" x2="956" y2="64" stroke="#ffffff" stroke-opacity="0.07"/>
   <text x="44" y="74" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10.5" fill="#7b7b7b">Nov</text>
   <text x="72" y="74" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10.5" fill="#7b7b7b">Dec</text>
@@ -144,17 +144,17 @@
   <rect x="282" y="170" width="11" height="11" rx="2.5" fill="#ffffff" fill-opacity="0.06"><title>2026-03-28: 0</title></rect>
   <rect x="296" y="86" width="11" height="11" rx="2.5" fill="#ffffff" fill-opacity="0.06"><title>2026-03-29: 0</title></rect>
   <rect x="296" y="100" width="11" height="11" rx="2.5" fill="#c0a0f0" fill-opacity="0.38"><title>2026-03-30: 2</title></rect>
-  <rect x="296" y="114" width="11" height="11" rx="2.5" fill="#7b1dff" fill-opacity="0.6"><title>2026-03-31: 5</title></rect>
+  <rect x="296" y="114" width="11" height="11" rx="2.5" fill="#c0a0f0" fill-opacity="0.38"><title>2026-03-31: 4</title></rect>
   <rect x="296" y="128" width="11" height="11" rx="2.5" fill="#c0a0f0" fill-opacity="0.38"><title>2026-04-01: 1</title></rect>
   <rect x="296" y="142" width="11" height="11" rx="2.5" fill="#c0a0f0" fill-opacity="0.38"><title>2026-04-02: 1</title></rect>
   <rect x="296" y="156" width="11" height="11" rx="2.5" fill="#7b1dff" fill-opacity="0.6"><title>2026-04-03: 5</title></rect>
   <rect x="296" y="170" width="11" height="11" rx="2.5" fill="#ffffff" fill-opacity="0.06"><title>2026-04-04: 0</title></rect>
   <rect x="310" y="86" width="11" height="11" rx="2.5" fill="#c0a0f0" fill-opacity="0.38"><title>2026-04-05: 4</title></rect>
   <rect x="310" y="100" width="11" height="11" rx="2.5" fill="#7b1dff" fill-opacity="0.6"><title>2026-04-06: 5</title></rect>
-  <rect x="310" y="114" width="11" height="11" rx="2.5" fill="#7b1dff" fill-opacity="0.95"><title>2026-04-07: 14</title></rect>
+  <rect x="310" y="114" width="11" height="11" rx="2.5" fill="#7b1dff" fill-opacity="0.6"><title>2026-04-07: 11</title></rect>
   <rect x="310" y="128" width="11" height="11" rx="2.5" fill="#7b1dff" fill-opacity="0.6"><title>2026-04-08: 12</title></rect>
   <rect x="310" y="142" width="11" height="11" rx="2.5" fill="#7b1dff" fill-opacity="0.6"><title>2026-04-09: 8</title></rect>
-  <rect x="310" y="156" width="11" height="11" rx="2.5" fill="#7b1dff" fill-opacity="0.95"><title>2026-04-10: 14</title></rect>
+  <rect x="310" y="156" width="11" height="11" rx="2.5" fill="#7b1dff" fill-opacity="0.95"><title>2026-04-10: 15</title></rect>
   <rect x="310" y="170" width="11" height="11" rx="2.5" fill="#ffffff" fill-opacity="0.06"><title>2026-04-11: 0</title></rect>
   <rect x="324" y="86" width="11" height="11" rx="2.5" fill="#c0a0f0" fill-opacity="0.38"><title>2026-04-12: 2</title></rect>
   <rect x="324" y="100" width="11" height="11" rx="2.5" fill="#a447ff" fill-opacity="1"><title>2026-04-13: 415</title></rect>
@@ -382,7 +382,9 @@
   <rect x="758" y="170" width="11" height="11" rx="2.5" fill="#a447ff" fill-opacity="1"><title>2026-11-21: 127</title></rect>
   <rect x="772" y="86" width="11" height="11" rx="2.5" fill="#a447ff" fill-opacity="1"><title>2026-11-22: 144</title></rect>
   <rect x="772" y="100" width="11" height="11" rx="2.5" fill="#a447ff" fill-opacity="1"><title>2026-11-23: 84</title></rect>
-  <rect x="772" y="114" width="11" height="11" rx="2.5" fill="#a447ff" fill-opacity="1"><title>2026-11-24: 50</title></rect>
+  <rect x="772" y="114" width="11" height="11" rx="2.5" fill="#a447ff" fill-opacity="1"><title>2026-11-24: 65</title></rect>
+  <rect x="772" y="128" width="11" height="11" rx="2.5" fill="#a447ff" fill-opacity="1"><title>2026-11-25: 65</title></rect>
+  <rect x="772" y="142" width="11" height="11" rx="2.5" fill="#a447ff" fill-opacity="1"><title>2026-11-26: 40</title></rect>
   <text x="840" y="208" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10.5" fill="#7b7b7b" text-anchor="end">less</text>
   <rect x="848" y="198" width="11" height="11" rx="2.5" fill="#ffffff" fill-opacity="0.06"/>
   <rect x="864" y="198" width="11" height="11" rx="2.5" fill="#c0a0f0" fill-opacity="0.38"/>

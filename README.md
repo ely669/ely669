@@ -8,7 +8,7 @@
 <br/>
 
 <a href="https://github.com/ely669">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&pause=1300&color=A447FF&center=true&vCenter=true&width=780&lines=TypeScript+%C2%B7+React+%C2%B7+Next.js+%C2%B7+Astro+%C2%B7+Node.js;Python+%C2%B7+PostgreSQL+%C2%B7+Supabase+%C2%B7+Stripe+%C2%B7+Docker;C%2FC%2B%2B+firmware+for+ESP32+boards;4%2C677+commits+across+91+repositories" alt="stack" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&pause=1300&color=A447FF&center=true&vCenter=true&width=780&lines=TypeScript+%C2%B7+React+%C2%B7+Next.js+%C2%B7+Astro+%C2%B7+Node.js;Python+%C2%B7+PostgreSQL+%C2%B7+Supabase+%C2%B7+Stripe+%C2%B7+Docker;C%2FC%2B%2B+firmware+for+ESP32+boards;4%2C776+commits+across+95+repositories" alt="stack" />
 </a>
 
 <br/>
@@ -52,7 +52,7 @@ I'm open to freelance and project work, remote, with a fixed scope or ongoing.
 
 <div align="center">
 
-<img src="./assets/stats.svg" width="100%" alt="7,724 contributions · 4,677 commits · 91 repositories" />
+<img src="./assets/stats.svg" width="100%" alt="7,841 contributions · 4,776 commits · 95 repositories" />
 
 <img src="./assets/contributions.svg" width="100%" alt="contribution calendar, last 12 months" />
 
@@ -60,7 +60,7 @@ I'm open to freelance and project work, remote, with a fixed scope or ongoing.
 
 </div>
 
-> **About these cards:** 93% of my repositories are private, so the usual stat widgets, which only read public repos, show almost nothing for this account. These cards come from the authenticated GitHub API through [`scripts/update-stats.mjs`](scripts/update-stats.mjs), and [a GitHub Actions workflow](.github/workflows/update-stats.yml) updates them every day. Commits are counted repo by repo.
+> **About these cards:** 94% of my repositories are private, so the usual stat widgets, which only read public repos, show almost nothing for this account. These cards come from the authenticated GitHub API through [`scripts/update-stats.mjs`](scripts/update-stats.mjs), and [a GitHub Actions workflow](.github/workflows/update-stats.yml) updates them every day. Commits are counted repo by repo.
 
 ---
 
